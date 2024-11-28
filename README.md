@@ -5,6 +5,10 @@
 ![Screenshot2023-01-30 at 00 40 04@2x](https://user-images.githubusercontent.com/15716057/215350057-5fbf81f5-5f33-4cbe-98ba-0ced8b3c09c8.jpg)
 
 
+# vercel
+
+[Setting the Node.js version in project settings](https://vercel.com/jacob-hsus-projects/apps-onelink/settings) `Node.js Version`
+
 ## Setup locally
 
 Make sure to install the dependencies:
