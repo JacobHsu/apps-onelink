@@ -18,9 +18,9 @@
       v-if="!allSocialLinksAreEmpty"
       class="flex items-center justify-center flex-wrap"
     >
-      <span v-if="acc.f" class="p-1">
-        <a :href="acc.f" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:facebook-logo-duotone" class="h-6 w-6" />
+      <span v-if="acc.one" class="p-1">
+        <a :href="acc.one" target="_blank" rel="noopener | noreferrer">
+           <img :src="acc.app1" alt="name" class="h-16 w-16 rounded-lg" />
         </a>
       </span>
       <span v-if="acc.t" class="p-1">
@@ -90,7 +90,7 @@ const props = defineProps({
 
 const allSocialLinksAreEmpty = computed(() => {
   return (
-    !props.acc.f &&
+    !props.acc.one &&
     !props.acc.t &&
     !props.acc.ig &&
     !props.acc.m &&

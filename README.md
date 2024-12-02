@@ -9,6 +9,10 @@
 
 [Setting the Node.js version in project settings](https://vercel.com/jacob-hsus-projects/apps-onelink/settings) `Node.js Version`
 
+## References
+
+[iconify](https://icon-sets.iconify.design/ph/)
+
 ## Setup locally
 
 Make sure to install the dependencies:

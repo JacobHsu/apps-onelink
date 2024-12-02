@@ -4,7 +4,7 @@
       <div class="flex-1 overflow-y-auto p-8">
         <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
         <app-form-hr />
-        <app-form-social-links v-model:facebook="data.f" v-model:twitter="data.t" v-model:instagram="data.ig"
+        <app-form-social-links v-model:app1="data.one" v-model:twitter="data.t" v-model:instagram="data.ig"
           v-model:github="data.gh" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
           v-model:whatsapp="data.w" v-model:youtube="data.y" />
         <app-form-hr />
@@ -47,9 +47,9 @@ const data = ref({
 
 const prefillDemoData = () => {
   data.value = {
-    n: "John Snow",
-    d: "I’m John Snow, the king in the north. I know Nothing.",
-    i: "https://i.insider.com/56743fad72f2c12a008b6cc0",
+    n: "Language",
+    d: "Education",
+    i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
     f: "https://www.facebook.com/john_snow",
     t: "https://twitter.com/john_snow",
     ig: "https://www.instagram.com/john_snow",
