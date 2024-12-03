@@ -4,7 +4,7 @@
       <div class="flex-1 overflow-y-auto p-8">
         <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
         <app-form-hr />
-        <app-form-social-links v-model:app1="data.one" v-model:twitter="data.t" v-model:instagram="data.ig"
+        <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:instagram="data.ig"
           v-model:github="data.gh" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
           v-model:whatsapp="data.w" v-model:youtube="data.y" />
         <app-form-hr />

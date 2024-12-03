@@ -4,7 +4,7 @@
       <div class="flex-1 overflow-y-auto p-8">
         <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
         <app-form-hr />
-        <app-form-social-links v-model:app1="data.one" v-model:twitter="data.t" v-model:instagram="data.ig"
+        <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:instagram="data.ig"
           v-model:github="data.gh" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
           v-model:whatsapp="data.w" v-model:youtube="data.y" />
         <app-form-hr />
@@ -52,7 +52,8 @@ const prefillDemoData = () => {
     i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
     app1: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/f1/a5/b0f1a533-5c9e-47c3-24b8-c110fae32bd9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/230x0w.webp",
     one: "https://apps.apple.com/tw/app/多鄰國-極速學外語/id570060128",
-    t: "https://twitter.com/john_snow",
+    app2: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/53/4b/3f534b79-0734-90a0-08d4-9278726a2906/AppIconSpecial-0-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
+    two: "https://apps.apple.com/tw/app/英文多益知識王-單字-多益-托福-英檢-雅思必備吐司/id1611674456",
     ig: "https://www.instagram.com/john_snow",
     e: "mail@john_snow.cc",
     gh: "https://github.com/john_snow",

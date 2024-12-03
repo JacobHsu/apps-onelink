@@ -1,7 +1,7 @@
 <template>
   <base-form-section
-    title="Social Links"
-    description="Add some social media links"
+    title="Apps Links"
+    description="Add some Apps links"
   >
     <div class="shadow sm:overflow-hidden sm:rounded-md">
       <div class="grid grid-cols-2 gap-8 bg-white px-4 py-5 sm:p-6">
@@ -22,28 +22,28 @@
               :value="app1"
               @input="$emit('update:app1', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://fb.com/elonmusk"
+              placeholder=""
             />
           </div>
         </div>
         <div>
-          <label for="twitter" class="block text-sm font-medium text-gray-700"
-            >Twitter</label
+          <label for="app2" class="block text-sm font-medium text-gray-700"
+            >App 2</label
           >
           <div class="mt-1 flex rounded-md shadow-sm">
             <span
               class="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-500"
             >
-              <icon name="ph:twitter-logo-duotone" class="w-5 h-5" />
+              <icon name="ph:app-store-logo-fill" class="w-5 h-5" />
             </span>
             <input
               type="search"
-              name="twitter"
-              id="twitter"
-              :value="twitter"
-              @input="$emit('update:twitter', $event.target.value)"
+              name="app2"
+              id="app2"
+              :value="app2"
+              @input="$emit('update:app2', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://twitter.com/elonmusk"
+              placeholder=""
             />
           </div>
         </div>
@@ -201,7 +201,7 @@
 <script setup>
 const props = defineProps([
   "app1",
-  "twitter",
+  "app2",
   "instagram",
   "linkedin",
   "github",
