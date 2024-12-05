@@ -48,23 +48,23 @@
           </div>
         </div>
         <div>
-          <label for="instagram" class="block text-sm font-medium text-gray-700"
-            >Instagram</label
+          <label for="app3" class="block text-sm font-medium text-gray-700"
+            >App 3</label
           >
           <div class="mt-1 flex rounded-md shadow-sm">
             <span
               class="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-500"
             >
-              <icon name="ph:instagram-logo-duotone" class="w-5 h-5" />
+              <icon name="ph:app-store-logo-fill" class="w-5 h-5" />
             </span>
             <input
               type="search"
-              name="instagram"
-              id="instagram"
-              :value="instagram"
-              @input="$emit('update:instagram', $event.target.value)"
+              name="app3"
+              id="app3"
+              :value="app3"
+              @input="$emit('update:app3', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://instagram.com/elonmusk"
+              placeholder=""
             />
           </div>
         </div>
@@ -202,7 +202,7 @@
 const props = defineProps([
   "app1",
   "app2",
-  "instagram",
+  "app3",
   "linkedin",
   "github",
   "telegram",
