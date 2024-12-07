@@ -70,22 +70,22 @@
         </div>
         <div>
           <label for="instagram" class="block text-sm font-medium text-gray-700"
-            >Github</label
+            >App 4</label
           >
           <div class="mt-1 flex rounded-md shadow-sm">
             <span
               class="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-500"
             >
-              <icon name="ph:github-logo-duotone" class="w-5 h-5" />
+              <icon name="ph:app-store-logo-fill" class="w-5 h-5" />
             </span>
             <input
               type="search"
-              name="github"
-              id="github"
-              :value="github"
-              @input="$emit('update:github', $event.target.value)"
+              name="app4"
+              id="app4"
+              :value="app4"
+              @input="$emit('update:app4', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://github.com/elonmusk"
+              placeholder=""
             />
           </div>
         </div>
@@ -204,7 +204,7 @@ const props = defineProps([
   "app2",
   "app3",
   "linkedin",
-  "github",
+  "app4",
   "telegram",
   "whatsapp",
   "youtube",

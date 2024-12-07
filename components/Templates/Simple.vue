@@ -33,9 +33,9 @@
           <img :src="acc.app3" alt="name" class="h-16 w-16 rounded-lg" />
         </a>
       </span>
-      <span v-if="acc.m" class="p-1">
-        <a :href="acc.m" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:envelope-duotone" class="h-6 w-6" />
+      <span v-if="acc.four" class="p-1">
+        <a :href="acc.four" target="_blank" rel="noopener | noreferrer">
+          <img :src="acc.app4" alt="name" class="h-16 w-16 rounded-lg" />
         </a>
       </span>
       <span v-if="acc.tg" class="p-1">

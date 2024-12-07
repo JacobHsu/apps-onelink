@@ -4,8 +4,8 @@
       <div class="flex-1 overflow-y-auto p-8">
         <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
         <app-form-hr />
-        <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:app3="data.ig"
-          v-model:github="data.gh" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
+        <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:app3="data.three"
+          v-model:app4="data.four" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
           v-model:whatsapp="data.w" v-model:youtube="data.y" />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
@@ -47,45 +47,45 @@ const data = ref({
 
 const prefillDemoData = () => {
   data.value = {
-    n: "Language",
-    d: "Education",
-    i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
-    f: "https://www.facebook.com/john_snow",
-    t: "https://twitter.com/john_snow",
-    ig: "https://www.instagram.com/john_snow",
-    e: "mail@john_snow.cc",
-    gh: "https://github.com/john_snow",
-    tg: "https://t.me/john_snow",
-    w: "+918888888888",
-    y: "https://youtube.com/@john_snow",
-    l: "https://linkedin.com/john_snow",
-    ls: [
-      {
-        l: "My Website",
-        i: "ph:globe-duotone",
-        u: "https://example.com",
-      },
-      {
-        l: "Amazon wishlist",
-        i: "ant-design:amazon-outlined",
-        u: "https://amazon.in",
-      },
-      {
-        l: "React JS course",
-        i: "grommet-icons:reactjs",
-        u: "https://reactjs.org/",
-      },
-      {
-        l: "Donate for our cause",
-        i: "iconoir:donate",
-        u: "https://who.int",
-      },
-      {
-        l: "Download my resume",
-        i: "ph:file-pdf",
-        u: "https://google.com",
-      },
-    ],
+    // n: "Language",
+    // d: "Education",
+    // i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+    // f: "https://www.facebook.com/john_snow",
+    // t: "https://twitter.com/john_snow",
+    // ig: "https://www.instagram.com/john_snow",
+    // e: "mail@john_snow.cc",
+    // gh: "https://github.com/john_snow",
+    // tg: "https://t.me/john_snow",
+    // w: "+918888888888",
+    // y: "https://youtube.com/@john_snow",
+    // l: "https://linkedin.com/john_snow",
+    // ls: [
+    //   {
+    //     l: "My Website",
+    //     i: "ph:globe-duotone",
+    //     u: "https://example.com",
+    //   },
+    //   {
+    //     l: "Amazon wishlist",
+    //     i: "ant-design:amazon-outlined",
+    //     u: "https://amazon.in",
+    //   },
+    //   {
+    //     l: "React JS course",
+    //     i: "grommet-icons:reactjs",
+    //     u: "https://reactjs.org/",
+    //   },
+    //   {
+    //     l: "Donate for our cause",
+    //     i: "iconoir:donate",
+    //     u: "https://who.int",
+    //   },
+    //   {
+    //     l: "Download my resume",
+    //     i: "ph:file-pdf",
+    //     u: "https://google.com",
+    //   },
+    // ],
   };
 };
 

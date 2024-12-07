@@ -5,7 +5,7 @@
         <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
         <app-form-hr />
         <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:app3="data.three"
-          v-model:github="data.gh" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
+          v-model:app4="data.four" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
           v-model:whatsapp="data.w" v-model:youtube="data.y" />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
@@ -56,8 +56,9 @@ const prefillDemoData = () => {
     two: "https://apps.apple.com/tw/app/英文多益知識王-單字-多益-托福-英檢-雅思必備吐司/id1611674456",
     app3: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/0c/6e/470c6e73-9eb2-1882-aa5a-0de07e501632/AppIcon-0-0-1x_U007epad-0-85-220.png/246x0w.webp",
     three: "https://apps.apple.com/tw/app/聰明學習-word-up-單字救星-多益和學測刷題神器/id1447838299",
+    app4: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/c1/da/b4c1dabd-f0fd-8d9b-cc18-c5e881ebdf41/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
+    four: "https://apps.apple.com/tw/app/刷刷庫-多益高分加速器/id6498889068",
     e: "mail@john_snow.cc",
-    gh: "https://github.com/john_snow",
     tg: "https://t.me/john_snow",
     w: "+918888888888",
     y: "https://youtube.com/@john_snow",
