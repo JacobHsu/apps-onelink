@@ -1,25 +1,41 @@
 <template>
-  <div class="h-screen grid grid-cols-3 divide-x">
-    <div class="col-span-2 h-screen flex flex-col bg-slate-100">
-      <div class="flex-1 overflow-y-auto p-8">
-        <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
+  <div class="grid h-screen grid-cols-3 divide-x">
+    <div class="flex flex-col h-screen col-span-2 bg-slate-100">
+      <div class="flex-1 p-8 overflow-y-auto">
+        <app-form-profile
+          :name="data.n"
+          :desc="data.d"
+          :image="data.i"
+        />
         <app-form-hr />
-        <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:app3="data.three"
-          v-model:app4="data.four" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
-          v-model:whatsapp="data.w" v-model:youtube="data.y" />
+        <app-form-social-links
+          v-model:app1="data.one"
+          v-model:app2="data.two"
+          v-model:app3="data.three"
+          v-model:app4="data.four"
+          v-model:app5="data.five"
+          v-model:linkedin="data.l"
+          v-model:email="data.e"
+          v-model:whatsapp="data.w"
+          v-model:youtube="data.y"
+        />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
       </div>
-      <div class="border-t bg-white flex items-center">
-        <button @click="prefillDemoData"
-          class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700">
+      <div class="flex items-center bg-white border-t">
+        <button
+          @click="prefillDemoData"
+          class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
+        >
           <span> Add demo data </span>
-          <icon name="mdi:code-json" class="h-4 w-4" />
+          <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
-        <button @click="clipboard"
-          class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700">
+        <button
+          @click="clipboard"
+          class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
+        >
           <span> Clipboard </span>
-          <icon name="ph:paper-plane-tilt-bold" class="h-4 w-4" />
+          <icon name="ph:paper-plane-tilt-bold" class="w-4 h-4" />
         </button>
       </div>
     </div>
@@ -33,11 +49,11 @@ const data = ref({
   n: "",
   d: "",
   i: "",
-  f: "",
-  t: "",
-  ig: "",
-  gh: "",
-  tg: "",
+  one: "",
+  two: "",
+  three: "",
+  four: "",
+  five: "",
   l: "",
   e: "",
   w: "",
@@ -55,11 +71,13 @@ const prefillDemoData = () => {
     app2: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/53/4b/3f534b79-0734-90a0-08d4-9278726a2906/AppIconSpecial-0-0-1x_U007emarketing-0-10-0-85-220.png/246x0w.webp",
     two: "https://apps.apple.com/tw/app/英文多益知識王-單字-多益-托福-英檢-雅思必備吐司/id1611674456",
     app3: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/0c/6e/470c6e73-9eb2-1882-aa5a-0de07e501632/AppIcon-0-0-1x_U007epad-0-85-220.png/246x0w.webp",
-    three: "https://apps.apple.com/tw/app/聰明學習-word-up-單字救星-多益和學測刷題神器/id1447838299",
+    three:
+      "https://apps.apple.com/tw/app/聰明學習-word-up-單字救星-多益和學測刷題神器/id1447838299",
     app4: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/c1/da/b4c1dabd-f0fd-8d9b-cc18-c5e881ebdf41/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
     four: "https://apps.apple.com/tw/app/刷刷庫-多益高分加速器/id6498889068",
     e: "mail@john_snow.cc",
-    tg: "https://t.me/john_snow",
+    app5: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
+    five: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
     w: "+918888888888",
     y: "https://youtube.com/@john_snow",
     l: "https://linkedin.com/john_snow",

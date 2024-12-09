@@ -1,25 +1,25 @@
 <template>
-  <div class="h-screen grid grid-cols-3 divide-x">
-    <div class="col-span-2 h-screen flex flex-col bg-slate-100">
-      <div class="flex-1 overflow-y-auto p-8">
+  <div class="grid h-screen grid-cols-3 divide-x">
+    <div class="flex flex-col h-screen col-span-2 bg-slate-100">
+      <div class="flex-1 p-8 overflow-y-auto">
         <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
         <app-form-hr />
         <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:app3="data.three"
-          v-model:app4="data.four" v-model:telegram="data.tg" v-model:linkedin="data.l" v-model:email="data.e"
+          v-model:app4="data.four" v-model:app5="data.five" v-model:linkedin="data.l" v-model:email="data.e"
           v-model:whatsapp="data.w" v-model:youtube="data.y" />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
       </div>
-      <div class="border-t bg-white flex items-center">
+      <div class="flex items-center bg-white border-t">
         <button @click="prefillDemoData"
-          class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700">
+          class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700">
           <span> Add demo data </span>
-          <icon name="mdi:code-json" class="h-4 w-4" />
+          <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button @click="clipboard"
-          class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700">
+          class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700">
           <span> Clipboard </span>
-          <icon name="ph:paper-plane-tilt-bold" class="h-4 w-4" />
+          <icon name="ph:paper-plane-tilt-bold" class="w-4 h-4" />
         </button>
       </div>
     </div>

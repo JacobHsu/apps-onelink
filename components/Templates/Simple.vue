@@ -1,71 +1,71 @@
 <template>
-  <main class="p-4 bg-white h-full w-full space-y-8 pt-12 max-w-lg mx-auto">
+  <main class="w-full h-full max-w-lg p-4 pt-12 mx-auto space-y-8 bg-white">
     <div class="text-center">
       <div
         v-if="acc.i"
-        class="h-20 w-20 rounded-full overflow-hidden ring ring-slate-200 mx-auto"
+        class="w-20 h-20 mx-auto overflow-hidden rounded-full ring ring-slate-200"
       >
-        <img :src="acc.i" alt="name" class="h-full w-full object-cover" />
+        <img :src="acc.i" alt="name" class="object-cover w-full h-full" />
       </div>
-      <h1 v-if="acc.n" class="text-2xl font-bold mt-4 text-slate-800">
+      <h1 v-if="acc.n" class="mt-4 text-2xl font-bold text-slate-800">
         {{ acc.n }}
       </h1>
-      <p v-if="acc.d" class="text-sm mt-2 text-slate-600">
+      <p v-if="acc.d" class="mt-2 text-sm text-slate-600">
         {{ acc.d }}
       </p>
     </div>
     <div
       v-if="!allSocialLinksAreEmpty"
-      class="flex items-center justify-center flex-wrap"
+      class="flex flex-wrap items-center justify-center"
     >
       <span v-if="acc.one" class="p-1">
         <a :href="acc.one" target="_blank" rel="noopener | noreferrer">
-           <img :src="acc.app1" alt="name" class="h-16 w-16 rounded-lg" />
+           <img :src="acc.app1" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
       <span v-if="acc.two" class="p-1">
         <a :href="acc.two" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app2" alt="name" class="h-16 w-16 rounded-lg" />
+          <img :src="acc.app2" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
       <span v-if="acc.three" class="p-1">
         <a :href="acc.three" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app3" alt="name" class="h-16 w-16 rounded-lg" />
+          <img :src="acc.app3" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
       <span v-if="acc.four" class="p-1">
         <a :href="acc.four" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app4" alt="name" class="h-16 w-16 rounded-lg" />
+          <img :src="acc.app4" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
-      <span v-if="acc.tg" class="p-1">
-        <a :href="acc.tg" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:telegram-logo-duotone" class="h-6 w-6" />
+      <span v-if="acc.five" class="p-1">
+        <a :href="acc.five" target="_blank" rel="noopener | noreferrer">
+          <img :src="acc.app5" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
       <span v-if="acc.w" class="p-1">
         <a :href="`https://wa.me/${acc.w}`" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:whatsapp-logo-duotone" class="h-6 w-6" />
+          <icon name="ph:whatsapp-logo-duotone" class="w-6 h-6" />
         </a>
       </span>
       <span v-if="acc.y" class="p-1">
         <a :href="acc.y" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:youtube-logo-duotone" class="h-6 w-6" />
+          <icon name="ph:youtube-logo-duotone" class="w-6 h-6" />
         </a>
       </span>
       <span v-if="acc.e" class="p-1">
         <a :href="`mailto:${acc.e}`" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:envelope-duotone" class="h-6 w-6" />
+          <icon name="ph:envelope-duotone" class="w-6 h-6" />
         </a>
       </span>
       <span v-if="acc.gh" class="p-1">
         <a :href="acc.gh" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:github-logo-duotone" class="h-6 w-6" />
+          <icon name="ph:github-logo-duotone" class="w-6 h-6" />
         </a>
       </span>
       <span v-if="acc.l" class="p-1">
         <a :href="acc.l" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:linkedin-logo-duotone" class="h-6 w-6" />
+          <icon name="ph:linkedin-logo-duotone" class="w-6 h-6" />
         </a>
       </span>
     </div>
@@ -92,13 +92,13 @@ const allSocialLinksAreEmpty = computed(() => {
   return (
     !props.acc.one &&
     !props.acc.two &&
-    !props.acc.ig &&
+    !props.acc.three &&
     !props.acc.m &&
-    !props.acc.tg &&
+    !props.acc.five &&
     !props.acc.w &&
     !props.acc.y &&
     !props.acc.e &&
-    !props.acc.gh &&
+    !props.acc.four &&
     !props.acc.l
   );
 });
