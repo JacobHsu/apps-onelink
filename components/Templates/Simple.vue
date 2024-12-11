@@ -43,6 +43,11 @@
           <img :src="acc.app5" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
+      <span v-if="acc.six" class="p-1">
+        <a :href="acc.six" target="_blank" rel="noopener | noreferrer">
+          <img :src="acc.app6" alt="name" class="w-16 h-16 rounded-lg" />
+        </a>
+      </span>
       <span v-if="acc.w" class="p-1">
         <a :href="`https://wa.me/${acc.w}`" target="_blank" rel="noopener | noreferrer">
           <icon name="ph:whatsapp-logo-duotone" class="w-6 h-6" />
@@ -63,11 +68,7 @@
           <icon name="ph:github-logo-duotone" class="w-6 h-6" />
         </a>
       </span>
-      <span v-if="acc.l" class="p-1">
-        <a :href="acc.l" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:linkedin-logo-duotone" class="w-6 h-6" />
-        </a>
-      </span>
+
     </div>
     <ul class="space-y-2">
       <ExternalLink
@@ -99,7 +100,7 @@ const allSocialLinksAreEmpty = computed(() => {
     !props.acc.y &&
     !props.acc.e &&
     !props.acc.four &&
-    !props.acc.l
+    !props.acc.six
   );
 });
 </script>

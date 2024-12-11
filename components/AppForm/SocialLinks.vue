@@ -69,7 +69,7 @@
           </div>
         </div>
         <div>
-          <label for="instagram" class="block text-sm font-medium text-gray-700"
+          <label for="app4" class="block text-sm font-medium text-gray-700"
             >App 4</label
           >
           <div class="flex mt-1 rounded-md shadow-sm">
@@ -90,7 +90,7 @@
           </div>
         </div>
         <div>
-          <label for="instagram" class="block text-sm font-medium text-gray-700"
+          <label for="app5" class="block text-sm font-medium text-gray-700"
             >App 5</label
           >
           <div class="flex mt-1 rounded-md shadow-sm">
@@ -111,23 +111,23 @@
           </div>
         </div>
         <div>
-          <label for="instagram" class="block text-sm font-medium text-gray-700"
-            >Linkedin</label
+          <label for="app6" class="block text-sm font-medium text-gray-700"
+            >App 6</label
           >
           <div class="flex mt-1 rounded-md shadow-sm">
             <span
               class="inline-flex items-center px-3 text-sm text-gray-500 border border-r-0 border-gray-300 rounded-l-md bg-gray-50"
             >
-              <icon name="ph:linkedin-logo-duotone" class="w-5 h-5" />
+              <icon name="ph:app-store-logo-fill" class="w-5 h-5" />
             </span>
             <input
               type="search"
-              name="linkedin"
-              id="linkedin"
-              :value="linkedin"
-              @input="$emit('update:linkedin', $event.target.value)"
+              name="app6"
+              id="app6"
+              :value="app6"
+              @input="$emit('update:app6', $event.target.value)"
               class="flex-1 block w-full border-gray-300 rounded-none rounded-r-md focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://linkedin.com/elonmusk"
+              placeholder=""
             />
           </div>
         </div>
@@ -205,7 +205,7 @@ const props = defineProps([
   "app3",
   "app4",
   "app5",
-  "linkedin",
+  "app6",
   "whatsapp",
   "youtube",
   "email",

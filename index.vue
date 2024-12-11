@@ -2,10 +2,10 @@
   <div class="grid h-screen grid-cols-3 divide-x">
     <div class="flex flex-col h-screen col-span-2 bg-slate-100">
       <div class="flex-1 p-8 overflow-y-auto">
-        <app-form-profile v-model:name="data.n" v-model:desc="data.d" v-model:image="data.i" />
+        <app-form-profile :name="data.n" :desc="data.d" :image="data.i" />
         <app-form-hr />
-        <app-form-social-links v-model:app1="data.one" v-model:app2="data.two" v-model:app3="data.three"
-          v-model:app4="data.four" v-model:app5="data.five" v-model:linkedin="data.l" v-model:email="data.e"
+        <app-form-social-links :app1="data.one" :app2="data.two" :app3="data.three"
+          :app4="data.four" :app5="data.five" :app6="data.six" v-model:email="data.e"
           v-model:whatsapp="data.w" v-model:youtube="data.y" />
         <app-form-hr />
         <app-form-links v-model="data.ls" />

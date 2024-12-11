@@ -9,15 +9,15 @@
         />
         <app-form-hr />
         <app-form-social-links
-          v-model:app1="data.one"
-          v-model:app2="data.two"
-          v-model:app3="data.three"
-          v-model:app4="data.four"
-          v-model:app5="data.five"
-          v-model:linkedin="data.l"
-          v-model:email="data.e"
-          v-model:whatsapp="data.w"
-          v-model:youtube="data.y"
+          :app1="data.one"
+          :app2="data.two"
+          :app3="data.three"
+          :app4="data.four"
+          :app5="data.five"
+          :app6="data.six"
+          :email="data.e"
+          :whatsapp="data.w"
+          :youtube="data.y"
         />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
@@ -54,7 +54,7 @@ const data = ref({
   three: "",
   four: "",
   five: "",
-  l: "",
+  six: "",
   e: "",
   w: "",
   y: "",
@@ -80,7 +80,8 @@ const prefillDemoData = () => {
     five: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
     w: "+918888888888",
     y: "https://youtube.com/@john_snow",
-    l: "https://linkedin.com/john_snow",
+    app6: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/37/6e/61376e69-f4f4-b988-4b7f-d068c4baa554/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
+    six: "https://apps.apple.com/tw/app/wordbranch-字首字根字尾字典/id1080556151?platform=iphone",
     ls: [
       {
         l: "My Website",
