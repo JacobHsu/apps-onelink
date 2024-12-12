@@ -48,6 +48,11 @@
           <img :src="acc.app6" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
+      <span v-if="acc.seven" class="p-1">
+        <a :href="acc.seven" target="_blank" rel="noopener | noreferrer">
+          <img :src="acc.app7" alt="name" class="w-16 h-16 rounded-lg" />
+        </a>
+      </span>
       <span v-if="acc.w" class="p-1">
         <a :href="`https://wa.me/${acc.w}`" target="_blank" rel="noopener | noreferrer">
           <icon name="ph:whatsapp-logo-duotone" class="w-6 h-6" />
@@ -56,11 +61,6 @@
       <span v-if="acc.y" class="p-1">
         <a :href="acc.y" target="_blank" rel="noopener | noreferrer">
           <icon name="ph:youtube-logo-duotone" class="w-6 h-6" />
-        </a>
-      </span>
-      <span v-if="acc.e" class="p-1">
-        <a :href="`mailto:${acc.e}`" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:envelope-duotone" class="w-6 h-6" />
         </a>
       </span>
       <span v-if="acc.gh" class="p-1">
@@ -98,9 +98,9 @@ const allSocialLinksAreEmpty = computed(() => {
     !props.acc.five &&
     !props.acc.w &&
     !props.acc.y &&
-    !props.acc.e &&
     !props.acc.four &&
-    !props.acc.six
+    !props.acc.six &&
+    !props.acc.seven
   );
 });
 </script>
