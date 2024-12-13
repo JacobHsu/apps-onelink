@@ -6,7 +6,7 @@
         <app-form-hr />
         <app-form-social-links :app1="data.one" :app2="data.two" :app3="data.three"
           :app4="data.four" :app5="data.five" :app6="data.six" :app7="data.seven"
-          v-model:whatsapp="data.w" v-model:youtube="data.y" />
+          :app8="data.eight" v-model:whatsapp="data.w" />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
       </div>

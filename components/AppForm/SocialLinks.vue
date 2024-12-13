@@ -153,23 +153,23 @@
           </div>
         </div>
         <div>
-          <label for="instagram" class="block text-sm font-medium text-gray-700"
-            >Youtube</label
+          <label for="app8" class="block text-sm font-medium text-gray-700"
+            >App 8</label
           >
           <div class="flex mt-1 rounded-md shadow-sm">
             <span
               class="inline-flex items-center px-3 text-sm text-gray-500 border border-r-0 border-gray-300 rounded-l-md bg-gray-50"
             >
-              <icon name="ph:youtube-logo-duotone" class="w-5 h-5" />
+              <icon name="ph:app-store-logo-fill" class="w-5 h-5" />
             </span>
             <input
               type="search"
-              name="youtube"
-              id="youtube"
-              :value="youtube"
-              @input="$emit('update:youtube', $event.target.value)"
+              name="app8"
+              id="app8"
+              :value="app8"
+              @input="$emit('update:app8', $event.target.value)"
               class="flex-1 block w-full border-gray-300 rounded-none rounded-r-md focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://youtube.com/elonmusk"
+              placeholder=""
             />
           </div>
         </div>
@@ -207,7 +207,7 @@ const props = defineProps([
   "app5",
   "app6",
   "app7",
+  "app8",
   "whatsapp",
-  "youtube",
 ]);
 </script>
