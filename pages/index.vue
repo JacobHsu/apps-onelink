@@ -8,7 +8,8 @@
           :image="data.i"
         />
         <app-form-hr />
-        <app-form-social-links
+        <app-form-social-links v-bind="data" />
+        <!-- <app-form-social-links
           :app1="data.one"
           :app2="data.two"
           :app3="data.three"
@@ -18,7 +19,7 @@
           :app7="data.seven"
           :app8="data.eight"
           :app9="data.nine"
-        />
+        /> -->
         <app-form-hr />
         <app-form-links v-model="data.ls" />
       </div>
@@ -104,11 +105,6 @@ const prefillDemoData = () => {
         l: "Donate for our cause",
         i: "iconoir:donate",
         u: "https://who.int",
-      },
-      {
-        l: "Download my resume",
-        i: "ph:file-pdf",
-        u: "https://google.com",
       },
     ],
   };
