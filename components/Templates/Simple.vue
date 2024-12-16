@@ -58,9 +58,9 @@
           <img :src="acc.app8" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
-      <span v-if="acc.w" class="p-1">
-        <a :href="`https://wa.me/${acc.w}`" target="_blank" rel="noopener | noreferrer">
-          <icon name="ph:whatsapp-logo-duotone" class="w-6 h-6" />
+      <span v-if="acc.nine" class="p-1">
+        <a :href="acc.nine" target="_blank" rel="noopener | noreferrer">
+          <img :src="acc.app9" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
 
@@ -97,11 +97,11 @@ const allSocialLinksAreEmpty = computed(() => {
     !props.acc.three &&
     !props.acc.m &&
     !props.acc.four &&
-    !props.acc.w &&
     !props.acc.five &&
     !props.acc.six &&
     !props.acc.seven &&
-    !props.acc.eight
+    !props.acc.eight &&
+    !props.acc.nine
   );
 });
 </script>

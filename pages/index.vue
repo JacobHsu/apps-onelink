@@ -17,7 +17,7 @@
           :app6="data.six"
           :app7="data.seven"
           :app8="data.eight"
-          :whatsapp="data.w"
+          :app9="data.nine"
         />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
@@ -56,8 +56,8 @@ const data = ref({
   five: "",
   six: "",
   seven: "",
-  w: "",
   eight: "",
+  nine: "",
   ls: [],
 });
 
@@ -76,13 +76,14 @@ const prefillDemoData = () => {
     four: "https://apps.apple.com/tw/app/死神單字-7000單字-多益-托福-雅思-國中會考/id1570762449",
     app5: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/c1/da/b4c1dabd-f0fd-8d9b-cc18-c5e881ebdf41/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
     five: "https://apps.apple.com/tw/app/刷刷庫-多益高分加速器/id6498889068",
-    w: "+918888888888",
     app6: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
     six: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
     app7: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/37/6e/61376e69-f4f4-b988-4b7f-d068c4baa554/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
     seven: "https://apps.apple.com/tw/app/wordbranch-字首字根字尾字典/id1080556151?platform=iphone",
     app8: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
     eight: "https://apps.apple.com/tw/app/ted/id376183339",
+    app9: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/ed/d9/87edd95f-141c-ff5e-635e-602bcdbe083a/AppIcon-1x_U007emarketing-0-6-0-0-85-220-0.png/246x0w.webp",
+    nine: "https://apps.apple.com/tw/app//一点英语-刷视频也能学英语/id1392803612?platform=iphone",
     ls: [
       {
         l: "My Website",
