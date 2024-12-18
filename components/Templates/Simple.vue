@@ -18,54 +18,9 @@
       v-if="!allSocialLinksAreEmpty"
       class="flex flex-wrap items-center justify-center"
     >
-      <span v-if="acc.one" class="p-1">
-        <a :href="acc.one" target="_blank" rel="noopener | noreferrer">
-           <img :src="acc.app1" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.two" class="p-1">
-        <a :href="acc.two" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app2" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.three" class="p-1">
-        <a :href="acc.three" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app3" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.four" class="p-1">
-        <a :href="acc.four" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app4" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.five" class="p-1">
-        <a :href="acc.five" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app5" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.six" class="p-1">
-        <a :href="acc.six" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app6" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.seven" class="p-1">
-        <a :href="acc.seven" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app7" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.eight" class="p-1">
-        <a :href="acc.eight" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app8" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.nine" class="p-1">
-        <a :href="acc.nine" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app9" alt="name" class="w-16 h-16 rounded-lg" />
-        </a>
-      </span>
-      <span v-if="acc.ten" class="p-1">
-        <a :href="acc.ten" target="_blank" rel="noopener | noreferrer">
-          <img :src="acc.app10" alt="name" class="w-16 h-16 rounded-lg" />
+      <span v-for="(link, index) in socialLinks" :key="index" class="p-1">
+        <a :href="link.url" target="_blank" rel="noopener noreferrer">
+          <img :src="link.img" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
       <span v-if="acc.gh" class="p-1">
@@ -94,21 +49,23 @@ const props = defineProps({
   },
 });
 
+const socialLinks = computed(() => {
+  return [
+    { url: props.acc.one, img: props.acc.app1 },
+    { url: props.acc.two, img: props.acc.app2 },
+    { url: props.acc.three, img: props.acc.app3 },
+    { url: props.acc.four, img: props.acc.app4 },
+    { url: props.acc.five, img: props.acc.app5 },
+    { url: props.acc.six, img: props.acc.app6 },
+    { url: props.acc.seven, img: props.acc.app7 },
+    { url: props.acc.eight, img: props.acc.app8 },
+    { url: props.acc.nine, img: props.acc.app9 },
+    { url: props.acc.ten, img: props.acc.app10 },
+  ].filter(link => link.url);
+});
 
 const allSocialLinksAreEmpty = computed(() => {
-  return (
-    !props.acc.one &&
-    !props.acc.two &&
-    !props.acc.three &&
-    !props.acc.m &&
-    !props.acc.four &&
-    !props.acc.five &&
-    !props.acc.six &&
-    !props.acc.seven &&
-    !props.acc.eight &&
-    !props.acc.nine &&
-    !props.acc.ten
-  );
+  return socialLinks.value.length === 0;
 });
 </script>
 <style scoped></style>
