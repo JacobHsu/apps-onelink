@@ -63,7 +63,11 @@
           <img :src="acc.app9" alt="name" class="w-16 h-16 rounded-lg" />
         </a>
       </span>
-
+      <span v-if="acc.ten" class="p-1">
+        <a :href="acc.ten" target="_blank" rel="noopener | noreferrer">
+          <img :src="acc.app10" alt="name" class="w-16 h-16 rounded-lg" />
+        </a>
+      </span>
       <span v-if="acc.gh" class="p-1">
         <a :href="acc.gh" target="_blank" rel="noopener | noreferrer">
           <icon name="ph:github-logo-duotone" class="w-6 h-6" />
@@ -90,6 +94,7 @@ const props = defineProps({
   },
 });
 
+
 const allSocialLinksAreEmpty = computed(() => {
   return (
     !props.acc.one &&
@@ -101,7 +106,8 @@ const allSocialLinksAreEmpty = computed(() => {
     !props.acc.six &&
     !props.acc.seven &&
     !props.acc.eight &&
-    !props.acc.nine
+    !props.acc.nine &&
+    !props.acc.ten
   );
 });
 </script>

@@ -38,6 +38,7 @@ const props = defineProps([
   "app7",
   "app8",
   "app9",
+  "app10",
 ]);
 
 const apps = computed(() => [
@@ -50,5 +51,6 @@ const apps = computed(() => [
   { id: "app7", label: "App 7", value: props.app7 },
   { id: "app8", label: "App 8", value: props.app8 },
   { id: "app9", label: "App 9", value: props.app9 },
+  { id: "app10", label: "App 10", value: props.app10 },
 ]);
 </script>

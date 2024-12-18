@@ -9,17 +9,6 @@
         />
         <app-form-hr />
         <app-form-social-links v-bind="data" />
-        <!-- <app-form-social-links
-          :app1="data.one"
-          :app2="data.two"
-          :app3="data.three"
-          :app4="data.four"
-          :app5="data.five"
-          :app6="data.six"
-          :app7="data.seven"
-          :app8="data.eight"
-          :app9="data.nine"
-        /> -->
         <app-form-hr />
         <app-form-links v-model="data.ls" />
       </div>
@@ -59,6 +48,7 @@ const data = ref({
   seven: "",
   eight: "",
   nine: "",
+  ten: "",
   ls: [],
 });
 
@@ -84,7 +74,9 @@ const prefillDemoData = () => {
     app8: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
     eight: "https://apps.apple.com/tw/app/ted/id376183339",
     app9: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/ed/d9/87edd95f-141c-ff5e-635e-602bcdbe083a/AppIcon-1x_U007emarketing-0-6-0-0-85-220-0.png/246x0w.webp",
-    nine: "https://apps.apple.com/tw/app//一点英语-刷视频也能学英语/id1392803612?platform=iphone",
+    nine: "https://apps.apple.com/tw/app/一点英语-刷视频也能学英语/id1392803612?platform=iphone",
+    app10: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/2c/8b/ba2c8b4d-d874-ce0e-8c37-b7c70e1f2013/AppIconInternational-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
+    ten: "https://apps.apple.com/tw/app/drops點滴學語言-學習韓語葡萄牙語日語俄語和其他的外語/id939540371",
     ls: [
       {
         l: "My Website",
