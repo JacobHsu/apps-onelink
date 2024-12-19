@@ -51,16 +51,17 @@ const props = defineProps({
 
 const socialLinks = computed(() => {
   return [
-    { url: props.acc.one, img: props.acc.app1 },
-    { url: props.acc.two, img: props.acc.app2 },
-    { url: props.acc.three, img: props.acc.app3 },
-    { url: props.acc.four, img: props.acc.app4 },
-    { url: props.acc.five, img: props.acc.app5 },
-    { url: props.acc.six, img: props.acc.app6 },
-    { url: props.acc.seven, img: props.acc.app7 },
-    { url: props.acc.eight, img: props.acc.app8 },
-    { url: props.acc.nine, img: props.acc.app9 },
-    { url: props.acc.ten, img: props.acc.app10 },
+    { url: props.acc.app1, img: props.acc.app1logo },
+    { url: props.acc.app2, img: props.acc.app2logo },
+    { url: props.acc.app3, img: props.acc.app3logo },
+    { url: props.acc.app4, img: props.acc.app4logo},
+    { url: props.acc.app5, img: props.acc.app5logo },
+    { url: props.acc.app6, img: props.acc.app6logo },
+    { url: props.acc.app7, img: props.acc.app7logo },
+    { url: props.acc.app8, img: props.acc.app8logo },
+    { url: props.acc.app9, img: props.acc.app9logo },
+    { url: props.acc.app10, img: props.acc.app10logo },
+    { url: props.acc.app11, img: props.acc.app11logo },
   ].filter(link => link.url);
 });
 

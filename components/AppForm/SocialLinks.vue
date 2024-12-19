@@ -1,5 +1,5 @@
 <template>
-  <base-form-section title="Apps Links" description="Add some Apps links">
+  <base-form-section title="Apps Links" description="Some Apps links">
     <div class="shadow sm:overflow-hidden sm:rounded-md">
       <div class="grid grid-cols-2 gap-8 px-4 py-5 bg-white sm:p-6">
         <div v-for="app in apps" :key="app.id">
@@ -16,7 +16,7 @@
               type="search"
               :name="app.id"
               :id="app.id"
-              :value="app.value"
+              :value="extractAppName(app.value)"
               @input="$emit('update:' + app.id, $event.target.value)"
               class="flex-1 block w-full border-gray-300 rounded-none rounded-r-md focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
               placeholder=""
@@ -39,6 +39,7 @@ const props = defineProps([
   "app8",
   "app9",
   "app10",
+  "app11",
 ]);
 
 const apps = computed(() => [
@@ -52,5 +53,13 @@ const apps = computed(() => [
   { id: "app8", label: "App 8", value: props.app8 },
   { id: "app9", label: "App 9", value: props.app9 },
   { id: "app10", label: "App 10", value: props.app10 },
+  { id: "app11", label: "App 11", value: props.app11 },
 ]);
+
+const extractAppName = (url) => {
+  if (!url) return '';
+  const regex = /\/app\/([^\/]+)\//;
+  const match = url.match(regex);
+  return match ? decodeURIComponent(match[1]) : 'Unknown App';
+};
 </script>
