@@ -80,6 +80,8 @@ const prefillDemoData = () => {
     app10: "https://apps.apple.com/tw/app/drops點滴學語言-學習韓語葡萄牙語日語俄語和其他的外語/id939540371",
     app11logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/3c/60/2d3c60b6-e52e-1e02-b809-5cec23941984/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
     app11: "https://apps.apple.com/tw/app/boldvoice-accent-training/id1567841142?platform=iphone",
+    app12logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/8b/6d/b8/8b6db8c7-441c-eaeb-b6c6-6533fa172f2e/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
+    app12: "https://apps.apple.com/tw/app/letmespeak-英文學習遊戲輕鬆背單字/id1478889848?",
     ls: [
       {
         l: "My Website",

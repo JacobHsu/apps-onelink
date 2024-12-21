@@ -62,6 +62,7 @@ const socialLinks = computed(() => {
     { url: props.acc.app9, img: props.acc.app9logo },
     { url: props.acc.app10, img: props.acc.app10logo },
     { url: props.acc.app11, img: props.acc.app11logo },
+    { url: props.acc.app12, img: props.acc.app12logo },
   ].filter(link => link.url);
 });
 

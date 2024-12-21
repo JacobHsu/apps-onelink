@@ -40,6 +40,7 @@ const props = defineProps([
   "app9",
   "app10",
   "app11",
+  "app12",
 ]);
 
 const apps = computed(() => [
@@ -54,6 +55,7 @@ const apps = computed(() => [
   { id: "app9", label: "App 9", value: props.app9 },
   { id: "app10", label: "App 10", value: props.app10 },
   { id: "app11", label: "App 11", value: props.app11 },
+  { id: "app12", label: "App 12", value: props.app12 },
 ]);
 
 const extractAppName = (url) => {
