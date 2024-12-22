@@ -1,5 +1,5 @@
 <template>
-  <base-form-section title="Links" description="Add some links here">
+  <base-form-section title="Links" description="Some website links">
     <template #helpertext>
       <p class="mt-1 text-xs text-gray-600">
         Icon keys can be found in
@@ -19,17 +19,17 @@
           <button class="absolute top-2 -left-8">
             <icon
               name="radix-icons:drag-handle-dots-2"
-              class="h-6 w-6 text-slate-500 drag-handle"
+              class="w-6 h-6 text-slate-500 drag-handle"
             />
           </button>
           <button
             @click="removeLink(link)"
-            class="hidden group-hover:flex items-center justify-center h-6 w-6 rounded-full bg-slate-300 text-slate-600 absolute -right-3 -top-3"
+            class="absolute items-center justify-center hidden w-6 h-6 rounded-full group-hover:flex bg-slate-300 text-slate-600 -right-3 -top-3"
           >
-            <icon name="fluent:dismiss-24-regular" class="h-4 w-4" />
+            <icon name="fluent:dismiss-24-regular" class="w-4 h-4" />
           </button>
           <div class="shadow sm:overflow-hidden sm:rounded-md">
-            <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
+            <div class="px-4 py-5 space-y-6 bg-white sm:p-6">
               <div class="grid grid-cols-2 gap-4">
                 <div>
                   <label
@@ -42,7 +42,7 @@
                     name="iconKey"
                     id="iconKey"
                     v-model="link.i"
-                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </div>
                 <div>
@@ -56,7 +56,7 @@
                     name="label"
                     id="label"
                     v-model="link.l"
-                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </div>
                 <div class="col-span-2">
@@ -70,7 +70,7 @@
                     name="url"
                     id="url"
                     v-model="link.u"
-                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </div>
               </div>
@@ -88,9 +88,9 @@
 
     <button
       @click="appendLink"
-      class="mt-8 border-2 text-slate-500 border-slate-300 rounded-lg block w-full py-2"
+      class="block w-full py-2 mt-8 border-2 rounded-lg text-slate-500 border-slate-300"
     >
-      <icon name="fluent:add-circle-24-regular" class="h-6 w-6" />
+      <icon name="fluent:add-circle-24-regular" class="w-6 h-6" />
     </button>
   </base-form-section>
 </template>

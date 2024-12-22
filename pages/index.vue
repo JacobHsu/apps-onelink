@@ -84,9 +84,9 @@ const prefillDemoData = () => {
     app12: "https://apps.apple.com/tw/app/letmespeak-英文學習遊戲輕鬆背單字/id1478889848?",
     ls: [
       {
-        l: "My Website",
+        l: "Voicetube",
         i: "ph:globe-duotone",
-        u: "https://example.com",
+        u: "https://tw.voicetube.com",
       },
       {
         l: "Amazon wishlist",
