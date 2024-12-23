@@ -98,11 +98,6 @@ const prefillDemoData = () => {
         i: "grommet-icons:reactjs",
         u: "https://reactjs.org/",
       },
-      {
-        l: "Donate for our cause",
-        i: "iconoir:donate",
-        u: "https://who.int",
-      },
     ],
   };
 };

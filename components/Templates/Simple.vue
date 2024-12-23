@@ -28,16 +28,27 @@
           <icon name="ph:github-logo-duotone" class="w-6 h-6" />
         </a>
       </span>
-
     </div>
     <ul class="space-y-2">
-      <ExternalLink
-        v-for="(link, id) in acc.ls"
-        :label="link.l"
-        :icon="link.i"
-        :url="link.u"
-        :key="id"
-      />
+      <li v-for="(link, id) in acc.ls" :key="id">
+        <nuxt-link :to="link.u" target="_blank" v-if="link.l && link.u">
+          <dt
+            class="flex items-center p-1 -m-1 space-x-2 rounded-xl hover:bg-slate-100 bg-slate-50"
+          >
+            <div
+              class="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg text-slate-500"
+            >
+              <icon v-if="link.i" :name="link.i" class="w-5 h-5" />
+              <icon v-else name="ph:link-simple" class="w-5 h-5" />
+            </div>
+            <div class="flex-grow w-full min-w-0">
+              <p class="text-sm font-medium leading-6 text-gray-900">
+                {{ link.l }}
+              </p>
+            </div>
+          </dt>
+        </nuxt-link>
+      </li>
     </ul>
   </main>
 </template>
@@ -54,7 +65,7 @@ const socialLinks = computed(() => {
     { url: props.acc.app1, img: props.acc.app1logo },
     { url: props.acc.app2, img: props.acc.app2logo },
     { url: props.acc.app3, img: props.acc.app3logo },
-    { url: props.acc.app4, img: props.acc.app4logo},
+    { url: props.acc.app4, img: props.acc.app4logo },
     { url: props.acc.app5, img: props.acc.app5logo },
     { url: props.acc.app6, img: props.acc.app6logo },
     { url: props.acc.app7, img: props.acc.app7logo },
@@ -63,7 +74,7 @@ const socialLinks = computed(() => {
     { url: props.acc.app10, img: props.acc.app10logo },
     { url: props.acc.app11, img: props.acc.app11logo },
     { url: props.acc.app12, img: props.acc.app12logo },
-  ].filter(link => link.url);
+  ].filter((link) => link.url);
 });
 
 const allSocialLinksAreEmpty = computed(() => {
