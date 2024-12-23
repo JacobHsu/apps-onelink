@@ -6,4 +6,5 @@ export default ({
     colorMode: {
         classSuffix: '',
     },
+    compatibilityDate: '2024-12-23',
 })
