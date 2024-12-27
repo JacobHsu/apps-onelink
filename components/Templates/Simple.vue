@@ -38,7 +38,7 @@
             <div
               class="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg text-slate-500"
             >
-              <icon v-if="link.i" :name="link.i" class="w-5 h-5" />
+              <img v-if="link.i" :src="link.i" alt="icon" class="w-5 h-5" />
               <icon v-else name="ph:link-simple" class="w-5 h-5" />
             </div>
             <div class="flex-grow w-full min-w-0">

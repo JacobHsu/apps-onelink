@@ -4,7 +4,7 @@
     description="Some information about apps"
   >
     <div class="shadow sm:overflow-hidden sm:rounded-md">
-      <div class="space-y-6 bg-white px-4 py-5 sm:p-6">
+      <div class="px-4 py-5 space-y-6 bg-white sm:p-6">
         <div class="col-span-6 sm:col-span-3">
           <label for="name" class="block text-sm font-medium text-gray-700"
             >Name</label
@@ -16,24 +16,24 @@
             autocomplete="given-name"
             :value="name"
             @input="$emit('update:name', $event.target.value)"
-            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
           />
         </div>
         <div>
-          <label for="about" class="block text-sm font-medium text-gray-700"
+          <label for="category" class="block text-sm font-medium text-gray-700"
             >Category</label
           >
           <div class="mt-1">
-            <textarea
-              id="about"
-              name="about"
+            <input
+              id="category"
+              name="category"
               rows="3"
-              class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm placeholder-slate-400"
-              placeholder="category"
+              class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm placeholder-slate-400"
+              placeholder=""
               maxlength="100"
               :value="desc"
               @input="$emit('update:desc', $event.target.value)"
-            ></textarea>
+            />
           </div>
         </div>
 
@@ -45,7 +45,7 @@
             type="text"
             name="logo-url"
             id="logo-url"
-            class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
             :value="image"
             @input="$emit('update:image', $event.target.value)"
           />

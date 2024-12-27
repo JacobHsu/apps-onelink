@@ -85,17 +85,17 @@ const prefillDemoData = () => {
     ls: [
       {
         l: "Voicetube",
-        i: "ph:globe-duotone",
+        i: "https://vt-cdn.voicetube.com/assets/img/logo/favicon/16.png",
         u: "https://tw.voicetube.com",
       },
       {
-        l: "Amazon wishlist",
-        i: "ant-design:amazon-outlined",
-        u: "https://amazon.in",
+        l: "Lingvist",
+        i: "https://lingvist.com/favicon.ico",
+        u: "https://learn.lingvist.com",
       },
       {
         l: "React JS course",
-        i: "grommet-icons:reactjs",
+        i: "",
         u: "https://reactjs.org/",
       },
     ],

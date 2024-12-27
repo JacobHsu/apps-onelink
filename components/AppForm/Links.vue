@@ -33,20 +33,6 @@
               <div class="grid grid-cols-2 gap-4">
                 <div>
                   <label
-                    for="name"
-                    class="block text-sm font-medium text-gray-700"
-                    >Icon Key (optional)</label
-                  >
-                  <input
-                    type="text"
-                    name="iconKey"
-                    id="iconKey"
-                    v-model="link.i"
-                    class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                  />
-                </div>
-                <div>
-                  <label
                     for="label"
                     class="block text-sm font-medium text-gray-700"
                     >Label</label
@@ -59,7 +45,7 @@
                     class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </div>
-                <div class="col-span-2">
+                <div>
                   <label
                     for="url"
                     class="block text-sm font-medium text-gray-700"
@@ -86,12 +72,12 @@
       </template>
     </draggable>
 
-    <button
+    <!-- <button
       @click="appendLink"
       class="block w-full py-2 mt-8 border-2 rounded-lg text-slate-500 border-slate-300"
     >
       <icon name="fluent:add-circle-24-regular" class="w-6 h-6" />
-    </button>
+    </button> -->
   </base-form-section>
 </template>
 <script setup>
