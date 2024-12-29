@@ -17,15 +17,8 @@
           @click="prefillDemoData"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add demo data </span>
+          <span> Add demo Education data </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
-        </button>
-        <button
-          @click="clipboard"
-          class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
-        >
-          <span> Clipboard </span>
-          <icon name="ph:paper-plane-tilt-bold" class="w-4 h-4" />
         </button>
       </div>
     </div>
@@ -34,22 +27,22 @@
 </template>
 
 <script setup>
-import { encodeData } from "../utils/transformer";
 const data = ref({
   n: "",
   d: "",
   i: "",
-  one: "",
-  two: "",
-  three: "",
-  four: "",
-  five: "",
-  six: "",
-  seven: "",
-  eight: "",
-  nine: "",
-  ten: "",
-  eleven: "",
+  app1: "",
+  app2: "",
+  app3: "",
+  app4: "",
+  app5: "",
+  app6: "",
+  app7: "",
+  app8: "",
+  app9: "",
+  app10: "",
+  app11: "",
+  app12: "",
   ls: [],
 });
 
@@ -100,12 +93,5 @@ const prefillDemoData = () => {
       },
     ],
   };
-};
-
-const clipboard = () => {
-  const url = `${window.location.origin}/1?data=${encodeData(data.value)}`;
-  navigator.clipboard.writeText(url).then(() => {
-    alert("Link copied to clipboard");
-  });
 };
 </script>
