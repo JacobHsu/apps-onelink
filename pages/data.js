@@ -67,6 +67,9 @@ export const productivityData = {
   app1logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/b4/4e/2db44e90-1f03-d8bf-916c-e082b4c575d3/AppIcon-0-0-1x_U007epad-0-0-0-85-220.png/246x0w.webp",
   app1: "https://apps.apple.com/tw/app/forest-專注森林-讀書專注番茄鐘/id866450515",
+  app2logo:
+  "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/30/1f/d9/301fd932-3a87-b305-d568-a00a4e570249/AppIcon-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
+  app2: "https://apps.apple.com/tw/app/fews-habit-starter/id1480926210",
   ls: [
     {
       l: "",
