@@ -70,6 +70,12 @@ export const productivityData = {
   app2logo:
   "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/30/1f/d9/301fd932-3a87-b305-d568-a00a4e570249/AppIcon-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app2: "https://apps.apple.com/tw/app/fews-habit-starter/id1480926210",
+  app3logo:
+  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/f2/73/ccf273e8-798b-bec5-80d0-9d1fdcaeed86/AppIcon_iOS-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
+  app3: "https://apps.apple.com/tw/app/待辦事項清單-習慣養成-productive/id983826477",
+  app4logo:
+  "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/11/c0/da11c0d2-20c5-2176-2b8d-e133e55923ea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/246x0w.webp",
+  app4: "https://apps.apple.com/tw/app/habit-tracker-motivated/id6472646551",
   ls: [
     {
       l: "",
