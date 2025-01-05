@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="flex-grow col-span-6 sm:col-span-3">
+        <!-- <div class="flex-grow col-span-6 sm:col-span-3">
           <label for="logo-url" class="block text-sm font-medium text-gray-700"
             >Logo Url</label
           >
@@ -49,7 +49,7 @@
             :value="image"
             @input="$emit('update:image', $event.target.value)"
           />
-        </div>
+        </div> -->
       </div>
     </div>
   </base-form-section>
