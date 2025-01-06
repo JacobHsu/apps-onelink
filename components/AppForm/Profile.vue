@@ -36,24 +36,10 @@
             />
           </div>
         </div>
-
-        <!-- <div class="flex-grow col-span-6 sm:col-span-3">
-          <label for="logo-url" class="block text-sm font-medium text-gray-700"
-            >Logo Url</label
-          >
-          <input
-            type="text"
-            name="logo-url"
-            id="logo-url"
-            class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-            :value="image"
-            @input="$emit('update:image', $event.target.value)"
-          />
-        </div> -->
       </div>
     </div>
   </base-form-section>
 </template>
 <script setup>
-const props = defineProps(["name", "desc", "image"]);
+const props = defineProps(["name", "desc"]);
 </script>

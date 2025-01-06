@@ -82,6 +82,12 @@ export const productivityData = {
   app6logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/59/11/26591159-b599-6746-1e68-369c93849076/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/246x0w.webp",
   app6: "https://apps.apple.com/tw/app/grow-你的健康貼心好夥伴/id1560604814",
+  app7logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/75/ac/6575acf1-7b20-edd3-33cc-d6fa5d4c8175/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.png",
+  app7: "https://apps.apple.com/tw/app/plan-joy-時間管理-學習打卡-工作計劃清單/id6738637439",
+  app8logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/de/5c/6dde5c01-4d47-cefc-316a-4e28c68e8a9a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
+  app8: "https://apps.apple.com/tw/app/haptive-stop-procrastination/id1620752370",
   ls: [
     {
       l: "",
