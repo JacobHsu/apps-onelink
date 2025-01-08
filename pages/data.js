@@ -53,9 +53,9 @@ export const educationData = {
       u: "https://learn.lingvist.com",
     },
     {
-      l: "React JS course",
+      l: "BBC Learning English",
       i: "",
-      u: "https://reactjs.org/",
+      u: "https://www.bbc.co.uk/learningenglish",
     },
   ],
 };
@@ -88,6 +88,20 @@ export const productivityData = {
   app8logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/de/5c/6dde5c01-4d47-cefc-316a-4e28c68e8a9a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app8: "https://apps.apple.com/tw/app/haptive-stop-procrastination/id1620752370",
+  app9logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/31/3a/7b313a38-8cf6-c603-a28f-ac4390fc71c3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app9: "https://apps.apple.com/tw/app/repov-電影-書籍-美食-記錄世界的所有視角/id6502975294",
+  app10logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/bf/25/aabf25e6-266e-8425-9912-c055affd8519/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app10:
+    "https://apps.apple.com/tw/app/plop-便便日記/id1505427265?platform=iphone",
+  app11logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/8f/ba/ed8fbacf-6919-6fbf-2b32-cf36fdcfb100/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
+  app11: "https://apps.apple.com/tw/app/timehop-memories-then-now/id569077959",
+  app12logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/0c/719f0c45-f889-bbd2-e8c3-05f9495c4236/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp",
+  app12:
+    "https://apps.apple.com/tw/app/hypertrophy-log-aesthetics/id6450398336",
   ls: [
     {
       l: "",
