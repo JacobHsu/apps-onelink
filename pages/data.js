@@ -104,6 +104,11 @@ export const productivityData = {
     "https://apps.apple.com/tw/app/hypertrophy-log-aesthetics/id6450398336",
   ls: [
     {
+      l: "Chatgpt",
+      i: "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
+      u: "https://chatgpt.com/",
+    },
+    {
       l: "Notion",
       i: "https://www.notion.com/front-static/favicon.ico",
       u: "https://www.notion.com/zh-tw",
