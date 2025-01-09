@@ -104,9 +104,14 @@ export const productivityData = {
     "https://apps.apple.com/tw/app/hypertrophy-log-aesthetics/id6450398336",
   ls: [
     {
-      l: "",
-      i: "",
-      u: "",
+      l: "Notion",
+      i: "https://www.notion.com/front-static/favicon.ico",
+      u: "https://www.notion.com/zh-tw",
+    },
+    {
+      l: "Trello",
+      i: "https://bxp-content-static.prod.public.atl-paas.net/img/favicon.ico",
+      u: "https://trello.com/zh-Hant",
     },
   ],
 };
