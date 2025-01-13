@@ -120,3 +120,22 @@ export const productivityData = {
     },
   ],
 };
+
+export const newsData = {
+  n: "Information",
+  d: "News",
+  i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+  app1logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/40/63/234063fb-ac56-d2ea-301e-40d3bd5f9c7f/ProductionAppIcon-0-0-1x_U007emarketing-0-7-0-0-0-85-220.png/246x0w.webp",
+  app1: "https://apps.apple.com/tw/app/x/id333903271",
+  app2logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/25/56/5c2556d9-55e4-6689-8632-3f7ba99d05d9/Prod-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app2: "https://apps.apple.com/tw/app/threads/id6446901002",
+  ls: [
+    {
+      l: "Google",
+      i: "https://www.google.com.tw/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+      u: "https://www.google.com.tw/?hl=zh_TW",
+    },
+  ],
+};

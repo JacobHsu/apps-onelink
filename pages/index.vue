@@ -23,6 +23,13 @@
           <span> Add Productivity data </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
+        <button
+          @click="fillDemoData('news')"
+          class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
+        >
+          <span> Add News data </span>
+          <icon name="mdi:code-json" class="w-4 h-4" />
+        </button>
       </div>
     </div>
     <app-form-preview :data="data" />
@@ -30,7 +37,7 @@
 </template>
 
 <script setup>
-import { educationData, productivityData } from "./data.js";
+import { educationData, productivityData, newsData } from "./data.js";
 
 const data = ref({
   n: "",
@@ -54,6 +61,7 @@ const data = ref({
 const demoData = {
   education: educationData,
   productivity: productivityData,
+  news: newsData,
 };
 const fillDemoData = (type) => {
   data.value = demoData[type];
