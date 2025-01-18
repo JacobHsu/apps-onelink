@@ -131,6 +131,12 @@ export const newsData = {
   app2logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/25/56/5c2556d9-55e4-6689-8632-3f7ba99d05d9/Prod-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
   app2: "https://apps.apple.com/tw/app/threads/id6446901002",
+  app3logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/e1/36/18e136cc-3920-4a30-782e-29c5b5367e1c/AppIconLLC-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp",
+  app3: "https://apps.apple.com/tw//app/telegram-messenger/id686449807",
+  app4logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/cf/39/e2cf3912-2b26-eb4a-2e52-333d8a50ac43/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-85-220.png/246x0w.webp",
+  app4: "https://apps.apple.com/tw/app/line/id443904275",
   ls: [
     {
       l: "Google",
