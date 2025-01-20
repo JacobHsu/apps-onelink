@@ -1,13 +1,13 @@
 <template>
   <base-form-section title="Links" description="Some website links">
-    <template #helpertext>
+    <!-- <template #helpertext>
       <p class="mt-1 text-xs text-gray-600">
         Icon keys can be found in
         <a class="underline" href="https://icones.js.org/"
           >https://icones.js.org/</a
         >.
       </p>
-    </template>
+    </template> -->
     <draggable
       :list="modelValue"
       item-key="link"

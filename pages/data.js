@@ -137,6 +137,12 @@ export const newsData = {
   app4logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/cf/39/e2cf3912-2b26-eb4a-2e52-333d8a50ac43/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-85-220.png/246x0w.webp",
   app4: "https://apps.apple.com/tw/app/line/id443904275",
+  app5logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/13/59/6b135929-433a-3f22-fde8-7a894ed07e38/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app5: "https://apps.apple.com/tw/app/apple-podcasts/id525463029",
+  app6logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/1e/c3/541ec330-5662-d430-bc71-fdae60ab5aaa/icon.png/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/喜马拉雅-听书社区-电台有声小说相声评书/id876336838?platform=iphone",
   ls: [
     {
       l: "Google",
