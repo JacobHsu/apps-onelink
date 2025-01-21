@@ -24,8 +24,8 @@ export const educationData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/37/6e/61376e69-f4f4-b988-4b7f-d068c4baa554/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/wordbranch-字首字根字尾字典/id1080556151?platform=iphone",
   app8logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-  app8: "https://apps.apple.com/tw/app/ted/id376183339",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/5f/0f/205f0f72-5f26-da55-39df-23d3bc830979/AppIcon-0-1x_U007emarketing-0-11-0-85-220-0.png/246x0w.webp",
+  app8: "https://apps.apple.com/tw/app/master-english-wordy/id6670703228",
   app9logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/ed/d9/87edd95f-141c-ff5e-635e-602bcdbe083a/AppIcon-1x_U007emarketing-0-6-0-0-85-220-0.png/246x0w.webp",
   app9: "https://apps.apple.com/tw/app/一点英语-刷视频也能学英语/id1392803612?platform=iphone",
@@ -143,6 +143,12 @@ export const newsData = {
   app6logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/1e/c3/541ec330-5662-d430-bc71-fdae60ab5aaa/icon.png/246x0w.webp",
   app6: "https://apps.apple.com/tw/app/喜马拉雅-听书社区-电台有声小说相声评书/id876336838?platform=iphone",
+  app7logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/9e/fa/419efae9-43c4-947d-3a46-0377e3b476f5/AppIcon-0-0-1x_U007epad-0-0-0-85-220.png/246x0w.webp",
+  app7: "https://apps.apple.com/tw/app/得到-课程听书电子书/id1016323413",
+  app8logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
+  app8: "https://apps.apple.com/tw/app/ted/id376183339",
   ls: [
     {
       l: "Google",
