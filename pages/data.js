@@ -80,8 +80,8 @@ export const productivityData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/61/3d/a8613d17-7d9c-a2ea-87b8-58a0df241163/AppIcon_Checkmark_Rainbow_OnDarkblue_WithGradientAndGlow-0-1x_U007ephone-0-1-0-85-220-0.png/246x0w.webp",
   app5: "https://apps.apple.com/tw/app/gym-tracker-productivity-app/id1403517519",
   app6logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/59/11/26591159-b599-6746-1e68-369c93849076/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/246x0w.webp",
-  app6: "https://apps.apple.com/tw/app/grow-你的健康貼心好夥伴/id1560604814",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/72/db/ef72db03-bc5c-e530-803c-d87ba68c712d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/supatask-daily-planner-todo/id1671435397?platform=iphone",
   app7logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/75/ac/6575acf1-7b20-edd3-33cc-d6fa5d4c8175/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.png",
   app7: "https://apps.apple.com/tw/app/plan-joy-時間管理-學習打卡-工作計劃清單/id6738637439",
@@ -96,8 +96,8 @@ export const productivityData = {
   app10:
     "https://apps.apple.com/tw/app/plop-便便日記/id1505427265?platform=iphone",
   app11logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/8f/ba/ed8fbacf-6919-6fbf-2b32-cf36fdcfb100/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
-  app11: "https://apps.apple.com/tw/app/timehop-memories-then-now/id569077959",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/59/11/26591159-b599-6746-1e68-369c93849076/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/246x0w.webp",
+  app11: "https://apps.apple.com/tw/app/grow-你的健康貼心好夥伴/id1560604814",
   app12logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/0c/719f0c45-f889-bbd2-e8c3-05f9495c4236/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp",
   app12:
