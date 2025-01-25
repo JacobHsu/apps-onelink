@@ -18,8 +18,8 @@ export const educationData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/c1/da/b4c1dabd-f0fd-8d9b-cc18-c5e881ebdf41/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
   app5: "https://apps.apple.com/tw/app/刷刷庫-多益高分加速器/id6498889068",
   app6logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
-  app6: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/1e/3f/911e3fd4-32c4-55e1-59c4-dae761eaf789/logo_translate_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/google-翻譯/id414706506",
   app7logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/37/6e/61376e69-f4f4-b988-4b7f-d068c4baa554/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/wordbranch-字首字根字尾字典/id1080556151?platform=iphone",
@@ -149,11 +149,31 @@ export const newsData = {
   app8logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app8: "https://apps.apple.com/tw/app/ted/id376183339",
+  app9logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
+  app9: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
+  app10logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/d2/8f/8dd28f34-2660-edd7-75e5-39141668500b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app10:
+    "https://apps.apple.com/tw/app/todaii-easy-japanese-日文學習/id1107177166?platform=iphone",
+  app11logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2a/2d/ab/2a2dab3f-a8ad-967d-e9c1-9c52eb638e9e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp",
+  app11:
+    "https://apps.apple.com/tw/app/easy-korean-news-쉬운-한국어-뉴스/id1441601041",
+  app12logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/5c/6e/e6/5c6ee628-81a3-ba98-48f3-1aa77fb241a4/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
+  app12:
+    "https://apps.apple.com/tw/app/todaii-easy-chinese/id1548888242?platform=iphone",
   ls: [
     {
       l: "Google",
       i: "https://www.google.com.tw/images/branding/googleg/1x/googleg_standard_color_128dp.png",
       u: "https://www.google.com.tw/?hl=zh_TW",
+    },
+    {
+      l: "bNext",
+      i: "https://cdn.bnextmedia.com.tw/cdnbn/assets/images/favicon.ico",
+      u: "https://www.bnext.com.tw/",
     },
   ],
 };
