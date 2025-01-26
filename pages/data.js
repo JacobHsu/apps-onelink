@@ -34,9 +34,8 @@ export const educationData = {
   app10:
     "https://apps.apple.com/tw/app/drops點滴學語言-學習韓語葡萄牙語日語俄語和其他的外語/id939540371",
   app11logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/3c/60/2d3c60b6-e52e-1e02-b809-5cec23941984/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-  app11:
-    "https://apps.apple.com/tw/app/boldvoice-accent-training/id1567841142?platform=iphone",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/1b/81/8a1b81ef-2189-b487-69d3-f87bc4751661/AppIcon-production-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app11: "https://apps.apple.com/tw/app/quizlet-使用單詞卡學習/id546473125",
   app12logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/8b/6d/b8/8b6db8c7-441c-eaeb-b6c6-6533fa172f2e/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
   app12:
@@ -103,11 +102,11 @@ export const productivityData = {
   app12:
     "https://apps.apple.com/tw/app/hypertrophy-log-aesthetics/id6450398336",
   ls: [
-    {
-      l: "Chatgpt",
-      i: "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
-      u: "https://chatgpt.com/",
-    },
+    // {
+    //   l: "Chatgpt",
+    //   i: "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
+    //   u: "https://chatgpt.com/",
+    // },
     {
       l: "Notion",
       i: "https://www.notion.com/front-static/favicon.ico",
@@ -117,6 +116,11 @@ export const productivityData = {
       l: "Trello",
       i: "https://bxp-content-static.prod.public.atl-paas.net/img/favicon.ico",
       u: "https://trello.com/zh-Hant",
+    },
+    {
+      l: "Workflowy",
+      i: "https://workflowy.com/media/i/favicon.ico",
+      u: "https://workflowy.com/",
     },
   ],
 };
@@ -169,6 +173,11 @@ export const newsData = {
       l: "Google",
       i: "https://www.google.com.tw/images/branding/googleg/1x/googleg_standard_color_128dp.png",
       u: "https://www.google.com.tw/?hl=zh_TW",
+    },
+    {
+      l: "Feedly",
+      i: "https://s1.feedly.com/images/feedly-512.png",
+      u: "https://feedly.com",
     },
     {
       l: "bNext",
