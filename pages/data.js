@@ -102,11 +102,6 @@ export const productivityData = {
   app12:
     "https://apps.apple.com/tw/app/hypertrophy-log-aesthetics/id6450398336",
   ls: [
-    // {
-    //   l: "Chatgpt",
-    //   i: "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
-    //   u: "https://chatgpt.com/",
-    // },
     {
       l: "Notion",
       i: "https://www.notion.com/front-static/favicon.ico",
@@ -183,6 +178,26 @@ export const newsData = {
       l: "bNext",
       i: "https://cdn.bnextmedia.com.tw/cdnbn/assets/images/favicon.ico",
       u: "https://www.bnext.com.tw/",
+    },
+  ],
+};
+
+
+export const aiData = {
+  n: "Assistant",
+  d: "AI",
+  i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+  app1logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/ef/ae/57efae02-424c-d8fc-edc4-c531aae269fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app1: "https://apps.apple.com/tw/app/chatgpt/id6448311069",
+  app2logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/f4/09/3bf4091e-a037-c981-1daa-812cb924e26f/AppIcon-0-0-1x_U007ephone-0-0-0-8-0-0-0-85-220.png/246x0w.webp",
+  app2: "https://apps.apple.com/tw/app/google-gemini/id6477489729",
+  ls: [
+    {
+      l: "Chatgpt",
+      i: "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
+      u: "https://chatgpt.com/",
     },
   ],
 };
