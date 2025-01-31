@@ -193,11 +193,22 @@ export const aiData = {
   app2logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/f4/09/3bf4091e-a037-c981-1daa-812cb924e26f/AppIcon-0-0-1x_U007ephone-0-0-0-8-0-0-0-85-220.png/246x0w.webp",
   app2: "https://apps.apple.com/tw/app/google-gemini/id6477489729",
+  app3logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/64/6f/c1646fcd-a854-c8c9-5d5e-8f4aa0fe1d16/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/246x0w.webp",
+  app3: "https://apps.apple.com/tw//app/perplexity-ask-anything/id1668000334",
+  app4logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/04/49/6d0449c5-dc69-da92-b23a-f0c00502e0a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
+  app4: "https://apps.apple.com/tw/app/kimi-智能助手/id6474233312",
   ls: [
     {
       l: "Chatgpt",
       i: "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
       u: "https://chatgpt.com/",
+    },
+    {
+      l: "Claude",
+      i: "https://claude.ai/images/claude_app_icon.png",
+      u: "https://claude.ai//",
     },
   ],
 };
