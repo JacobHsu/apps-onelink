@@ -199,6 +199,12 @@ export const aiData = {
   app4logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/04/49/6d0449c5-dc69-da92-b23a-f0c00502e0a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
   app4: "https://apps.apple.com/tw/app/kimi-智能助手/id6474233312",
+  app5logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/ff/16/03ff16d2-4d03-9174-609b-7377b1d2baf0/AppIcon_Production-0-1x_U007epad-0-4-85-220-0.png/246x0w.webp",
+  app5: "https://apps.apple.com/tw/app/microsoft-copilot/id6472538445",
+  app6logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/7f/2a/eb7f2ab0-d4d9-e2f3-a0bc-dbdb9cde47a6/AppIcon18-0-1x_U007epad-0-1-0-85-220-0.jpeg/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/aido-ai-just-answer/id6446410670",
   ls: [
     {
       l: "Chatgpt",
