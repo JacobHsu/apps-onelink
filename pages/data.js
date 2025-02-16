@@ -205,6 +205,9 @@ export const aiData = {
   app6logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/7f/2a/eb7f2ab0-d4d9-e2f3-a0bc-dbdb9cde47a6/AppIcon18-0-1x_U007epad-0-1-0-85-220-0.jpeg/246x0w.webp",
   app6: "https://apps.apple.com/tw/app/aido-ai-just-answer/id6446410670",
+  app7logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8e/6e/8c8e6e9d-cfd9-43ca-9d7b-293e03400b62/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/246x0w.webp",
+  app7: "https://apps.apple.com/tw/app/spaced-repetition-braindeck/id6476791990",
   ls: [
     {
       l: "Chatgpt",
