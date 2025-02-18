@@ -197,17 +197,20 @@ export const aiData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/64/6f/c1646fcd-a854-c8c9-5d5e-8f4aa0fe1d16/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/246x0w.webp",
   app3: "https://apps.apple.com/tw//app/perplexity-ask-anything/id1668000334",
   app4logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/04/49/6d0449c5-dc69-da92-b23a-f0c00502e0a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
-  app4: "https://apps.apple.com/tw/app/kimi-智能助手/id6474233312",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/c9/ff/d8c9ff25-e14f-b148-bcdc-5f6b5f8ccd0e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/246x0w.webp",
+  app4: "https://apps.apple.com/tw/app/grok/id6670324846",
   app5logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/ff/16/03ff16d2-4d03-9174-609b-7377b1d2baf0/AppIcon_Production-0-1x_U007epad-0-4-85-220-0.png/246x0w.webp",
-  app5: "https://apps.apple.com/tw/app/microsoft-copilot/id6472538445",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/04/49/6d0449c5-dc69-da92-b23a-f0c00502e0a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
+  app5: "https://apps.apple.com/tw/app/kimi-智能助手/id6474233312",
   app6logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/7f/2a/eb7f2ab0-d4d9-e2f3-a0bc-dbdb9cde47a6/AppIcon18-0-1x_U007epad-0-1-0-85-220-0.jpeg/246x0w.webp",
-  app6: "https://apps.apple.com/tw/app/aido-ai-just-answer/id6446410670",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/ff/16/03ff16d2-4d03-9174-609b-7377b1d2baf0/AppIcon_Production-0-1x_U007epad-0-4-85-220-0.png/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/microsoft-copilot/id6472538445",
   app7logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/7f/2a/eb7f2ab0-d4d9-e2f3-a0bc-dbdb9cde47a6/AppIcon18-0-1x_U007epad-0-1-0-85-220-0.jpeg/246x0w.webp",
+  app7: "https://apps.apple.com/tw/app/aido-ai-just-answer/id6446410670",
+  app8logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8e/6e/8c8e6e9d-cfd9-43ca-9d7b-293e03400b62/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/246x0w.webp",
-  app7: "https://apps.apple.com/tw/app/spaced-repetition-braindeck/id6476791990",
+  app8: "https://apps.apple.com/tw/app/spaced-repetition-braindeck/id6476791990",
   ls: [
     {
       l: "Chatgpt",
