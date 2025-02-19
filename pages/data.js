@@ -220,7 +220,12 @@ export const aiData = {
     {
       l: "Claude",
       i: "https://claude.ai/images/claude_app_icon.png",
-      u: "https://claude.ai//",
+      u: "https://claude.ai/",
+    },
+    {
+      l: "NotebookLM",
+      i: "https://notebooklm.google.com/_/static/branding/v4/light_mode/favicon/favicon.svg",
+      u: "https://notebooklm.google.com/",
     },
   ],
 };
