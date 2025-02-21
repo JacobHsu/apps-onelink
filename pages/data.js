@@ -211,6 +211,9 @@ export const aiData = {
   app8logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8e/6e/8c8e6e9d-cfd9-43ca-9d7b-293e03400b62/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/246x0w.webp",
   app8: "https://apps.apple.com/tw/app/spaced-repetition-braindeck/id6476791990",
+  app9logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/f5/74/9af57441-3d55-dcd4-b4ca-51ac65a96983/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/246x0w.webp",
+  app9: "https://apps.apple.com/tw/app/me-bot-ai-notes-chat/id6475769640",
   ls: [
     {
       l: "Chatgpt",
