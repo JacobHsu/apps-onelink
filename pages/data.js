@@ -217,6 +217,10 @@ export const aiData = {
   app10logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/4d/2a/474d2a55-1db5-756f-4836-8b980fbafbb0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp",
   app10: "https://apps.apple.com/tw/app/felo-search-the-world/id6598782546",
+  app11logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/6d/6e/b86d6e45-9aa2-4241-cfc0-fdd180b475e4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
+  app11:
+    "https://apps.apple.com/tw/app/liner-ai-search-with-sources/id955395198?platform=iphone",
   ls: [
     {
       l: "OpenRouter",
