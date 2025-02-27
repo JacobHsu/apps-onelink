@@ -219,9 +219,9 @@ export const aiData = {
   app10: "https://apps.apple.com/tw/app/felo-search-the-world/id6598782546",
   ls: [
     {
-      l: "Chatgpt",
-      i: "https://cdn.oaistatic.com/assets/apple-touch-icon-mz9nytnj.webp",
-      u: "https://chatgpt.com/",
+      l: "OpenRouter",
+      i: "https://openrouter.ai/favicon.ico",
+      u: "https://openrouter.ai/",
     },
     {
       l: "Claude",
