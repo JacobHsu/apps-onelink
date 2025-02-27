@@ -214,6 +214,9 @@ export const aiData = {
   app9logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/f5/74/9af57441-3d55-dcd4-b4ca-51ac65a96983/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/246x0w.webp",
   app9: "https://apps.apple.com/tw/app/me-bot-ai-notes-chat/id6475769640",
+  app10logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/4d/2a/474d2a55-1db5-756f-4836-8b980fbafbb0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp",
+  app10: "https://apps.apple.com/tw/app/felo-search-the-world/id6598782546",
   ls: [
     {
       l: "Chatgpt",
