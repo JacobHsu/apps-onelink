@@ -221,6 +221,9 @@ export const aiData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/6d/6e/b86d6e45-9aa2-4241-cfc0-fdd180b475e4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app11:
     "https://apps.apple.com/tw/app/liner-ai-search-with-sources/id955395198?platform=iphone",
+  app12logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/9e/67/b69e6752-57a7-7f27-595c-7787319e91d8/AppIcon_Poe-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/246x0w.webp",
+  app12: "https://apps.apple.com/tw/app/poe-fast-ai-chat/id1640745955",
   ls: [
     {
       l: "OpenRouter",
