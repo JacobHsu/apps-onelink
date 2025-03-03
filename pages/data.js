@@ -236,6 +236,11 @@ export const aiData = {
       u: "https://claude.ai/",
     },
     {
+      l: "Youlearn.ai",
+      i: "https://framerusercontent.com/images/GwOgxcUXqY3gjmInMNBFDzowQI.png",
+      u: "https://www.youlearn.ai/",
+    },
+    {
       l: "NotebookLM",
       i: "https://notebooklm.google.com/_/static/branding/v4/light_mode/favicon/favicon.svg",
       u: "https://notebooklm.google.com/",
