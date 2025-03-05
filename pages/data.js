@@ -146,8 +146,8 @@ export const newsData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/9e/fa/419efae9-43c4-947d-3a46-0377e3b476f5/AppIcon-0-0-1x_U007epad-0-0-0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/得到-课程听书电子书/id1016323413",
   app8logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-  app8: "https://apps.apple.com/tw/app/ted/id376183339",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/84/9a/d5849a39-9f9d-2532-f115-a5f6385ae629/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app8: "https://apps.apple.com/tw/app/snipd-ai-podcast-player/id1557206126",
   app9logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
   app9: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
@@ -160,9 +160,8 @@ export const newsData = {
   app11:
     "https://apps.apple.com/tw/app/easy-korean-news-쉬운-한국어-뉴스/id1441601041",
   app12logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/5c/6e/e6/5c6ee628-81a3-ba98-48f3-1aa77fb241a4/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
-  app12:
-    "https://apps.apple.com/tw/app/todaii-easy-chinese/id1548888242?platform=iphone",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
+  app12: "https://apps.apple.com/tw/app/ted/id376183339",
   ls: [
     {
       l: "Google",
