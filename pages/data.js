@@ -246,3 +246,19 @@ export const aiData = {
     },
   ],
 };
+
+export const financeData = {
+  n: "Invest",
+  d: "Finance",
+  i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+  app1logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/a4/95/bfa4955e-e086-7c3a-3e5b-83bd88bb57d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app1: "https://apps.apple.com/tw/app/幣安-買比特幣-就用全球第一投資理財首選加密貨幣交易所/id1436799971",
+  ls: [
+    {
+      l: "AiCoin",
+      i: "https://www.aicoin.com/favicon.ico",
+      u: "https://www.aicoin.com/",
+    },
+  ],
+};
