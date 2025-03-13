@@ -254,6 +254,9 @@ export const financeData = {
   app1logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/a4/95/bfa4955e-e086-7c3a-3e5b-83bd88bb57d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
   app1: "https://apps.apple.com/tw/app/幣安-買比特幣-就用全球第一投資理財首選加密貨幣交易所/id1436799971",
+  app2logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d5/88/3dd588e6-6bd2-edfa-a810-3f679c6b645e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app2: "https://apps.apple.com/tw/app/pionex-派網-虛擬貨幣交易機器人/id1485348891",
   ls: [
     {
       l: "AiCoin",
