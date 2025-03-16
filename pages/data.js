@@ -257,6 +257,12 @@ export const financeData = {
   app2logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d5/88/3dd588e6-6bd2-edfa-a810-3f679c6b645e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
   app2: "https://apps.apple.com/tw/app/pionex-派網-虛擬貨幣交易機器人/id1485348891",
+  app3logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/e0/69/6ae06951-1fb5-d4ae-b762-658303d9a725/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
+  app3: "https://apps.apple.com/tw//app/coinmarketcap-加密貨幣追蹤器/id1282107098",
+  app4logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/60/d0/4560d085-ce77-bf34-53eb-f569984a6081/AppIcon-1x_U007epad-0-1-85-220-0.png/246x0w.webp",
+  app4: "https://apps.apple.com/tw/app/coinank-專業加密貨幣數據分析/id6444732071",
   ls: [
     {
       l: "AiCoin",
