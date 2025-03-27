@@ -274,6 +274,12 @@ export const financeData = {
   app8logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/59/08/03590890-b3bb-70c7-f234-caa65b662f8a/AppIcon-0-0-1x_U007epad-0-11-0-0-0-0-85-220.png/246x0w.webp",
   app8: "https://apps.apple.com/tw/app/tradingview-股票-外匯-和比特幣圖表/id1205990992",
+  app9logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/86/50/158650b1-651a-d07a-0c12-3b72329a2976/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/246x0w.webp",
+  app9: "https://apps.apple.com/tw/app/phantom-crypto-wallet/id1598432977",
+  app10logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ca/e5/06cae511-ace8-0f86-a3dc-b80f8195b801/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/246x0w.webp",
+  app10: "https://apps.apple.com/tw/app/trust-加密货币-比特币钱包/id1288339409",
   ls: [
     {
       l: "AiCoin",
