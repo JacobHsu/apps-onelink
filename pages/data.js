@@ -280,6 +280,12 @@ export const financeData = {
   app10logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ca/e5/06cae511-ace8-0f86-a3dc-b80f8195b801/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/246x0w.webp",
   app10: "https://apps.apple.com/tw/app/trust-加密货币-比特币钱包/id1288339409",
+  app11logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/00/e9/3800e9b6-4ff2-5c92-ab7e-e9fe584e9748/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app11: "https://apps.apple.com/tw/app/metamask-crypto-wallet/id1438144202",
+  app12logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/f9/e9/e5f9e91d-6cbd-bd40-44af-0cf8f41222af/logo_authenticator_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/246x0w.webp",
+  app12: "https://apps.apple.com/tw/app/google-authenticator/id3884976055",
   ls: [
     {
       l: "AiCoin",
