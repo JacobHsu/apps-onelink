@@ -292,5 +292,15 @@ export const financeData = {
       i: "https://www.aicoin.com/favicon.ico",
       u: "https://www.aicoin.com/",
     },
+    {
+      l: "PlayToEarn",
+      i: "https://playtoearn.com/favicon-16x16.png",
+      u: "https://playtoearn.com/",
+    },
+    {
+      l: "Opensea",
+      i: "https://opensea.io/static/images/favicon/favicon.ico",
+      u: "https://opensea.io/",
+    },
   ],
 };
