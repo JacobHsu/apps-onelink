@@ -314,6 +314,12 @@ export const healthData = {
   app2logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/bf/25/aabf25e6-266e-8425-9912-c055affd8519/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
   app2: "https://apps.apple.com/tw/app/plop-便便日記/id1505427265?platform=iphone",
+  app3logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/01/59/b10159ec-18a0-a26c-0844-ee7232e985e8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app3: "https://apps.apple.com/tw//app/血壓測量儀-心率檢測-心臟健康應用/id6474854633",
+  app4logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/6c/fc/cd6cfc9f-b98c-2af8-47c7-14307561b5b8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp",
+  app4: "https://apps.apple.com/tw/app/呼吸-冥想-正念-breathing-exercises/id1590477138",
   ls: [
     {
       l: "Common health",
