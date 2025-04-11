@@ -320,6 +320,12 @@ export const healthData = {
   app4logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/6c/fc/cd6cfc9f-b98c-2af8-47c7-14307561b5b8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp",
   app4: "https://apps.apple.com/tw/app/呼吸-冥想-正念-breathing-exercises/id1590477138",
+  app5logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/00/86/e60086fa-3812-ae3c-2243-9523c2c860a7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app5: "https://apps.apple.com/tw/app/ai-food-scanner/id6739753761",
+  app6logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/16/22/01162234-c3f6-6d55-abc7-9dccfc6cbc7c/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/elite-food-diary-eat-mindfully/id1548289459",
   ls: [
     {
       l: "Common health",
