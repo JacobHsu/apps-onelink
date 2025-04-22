@@ -332,6 +332,9 @@ export const healthData = {
   app8logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/60/db/d060dbb7-6170-0896-b52a-493882b6f811/AppIcon-0-0-1x_U007epad-0-85-220.png/246x0w.webp",
   app8: "https://apps.apple.com/tw/app/iq-test-brain-games-simbo/id1670740872",
+  app9logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/fe/84/d2fe848a-ca49-de17-01fe-3b9b246c2165/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
+  app9: "https://apps.apple.com/tw/app/calmmind-relax-breathe/id6477401068",
   ls: [
     {
       l: "Common health",
