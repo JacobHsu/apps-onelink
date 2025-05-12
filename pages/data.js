@@ -328,14 +328,17 @@ export const healthData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/16/22/01162234-c3f6-6d55-abc7-9dccfc6cbc7c/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/246x0w.webp",
   app6: "https://apps.apple.com/tw/app/elite-food-diary-eat-mindfully/id1548289459",
   app7logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/ba/b6/3bbab6ce-f9dc-530d-0792-b2750e47ef8e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
-  app7: "https://apps.apple.com/tw/app/propel-adhd過動症智力遊戲-專注的動腦-益智遊戲/id6472498233",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/80/61/978061c0-bb05-fe92-befc-5dde2b6e8cf0/AppIcon-0-0-1x_U007epad-0-1-0-0-P3-GLES2_U002c0-85-220.png/246x0w.webp",
+  app7: "https://apps.apple.com/tw/app/seven-7-minute-workout/id650276551",
   app8logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/60/db/d060dbb7-6170-0896-b52a-493882b6f811/AppIcon-0-0-1x_U007epad-0-85-220.png/246x0w.webp",
-  app8: "https://apps.apple.com/tw/app/iq-test-brain-games-simbo/id1670740872",
-  app9logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/fe/84/d2fe848a-ca49-de17-01fe-3b9b246c2165/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-  app9: "https://apps.apple.com/tw/app/calmmind-relax-breathe/id6477401068",
+  app8: "https://apps.apple.com/tw/app/calmmind-relax-breathe/id6477401068",
+  app9logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/ba/b6/3bbab6ce-f9dc-530d-0792-b2750e47ef8e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+  app9: "https://apps.apple.com/tw/app/propel-adhd過動症智力遊戲-專注的動腦-益智遊戲/id6472498233",
+  app10logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/60/db/d060dbb7-6170-0896-b52a-493882b6f811/AppIcon-0-0-1x_U007epad-0-85-220.png/246x0w.webp",
+  app10: "https://apps.apple.com/tw/app/iq-test-brain-games-simbo/id1670740872",
   ls: [
     {
       l: "Common health",
