@@ -343,6 +343,9 @@ export const healthData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/0c/719f0c45-f889-bbd2-e8c3-05f9495c4236/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp",
   app11:
     "https://apps.apple.com/tw/app/hypertrophy-log-aesthetics/id6450398336",
+  app12logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/40/be/8840be40-4884-5e33-a507-c3ad4f5e0fa0/AppIcon_1-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
+  app12: "https://apps.apple.com/tw/app/gym-workout-planner-basic-fit/id1350534443?platform=iphone",
   ls: [
     {
       l: "Common health",
