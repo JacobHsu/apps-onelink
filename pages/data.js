@@ -168,14 +168,14 @@ export const newsData = {
       u: "https://www.google.com.tw/?hl=zh_TW",
     },
     {
-      l: "Feedly",
-      i: "https://s1.feedly.com/images/feedly-512.png",
-      u: "https://feedly.com",
+      l: "brave",
+      i: "https://brave.com/favicon.ico",
+      u: "https://brave.com/",
     },
     {
-      l: "bNext",
-      i: "https://cdn.bnextmedia.com.tw/cdnbn/assets/images/favicon.ico",
-      u: "https://www.bnext.com.tw/",
+      l: "duckduckgo",
+      i: "https://duckduckgo.com/favicon.ico",
+      u: "https://duckduckgo.com/",
     },
   ],
 };
@@ -298,9 +298,9 @@ export const financeData = {
       u: "https://playtoearn.com/",
     },
     {
-      l: "Opensea",
-      i: "https://opensea.io/static/images/favicon/favicon.ico",
-      u: "https://opensea.io/",
+      l: "altFINS",
+      i: "https://altfins.com/frontend/images/altfins_logo_small.svg",
+      u: "https://altfins.com/",
     },
   ],
 };
