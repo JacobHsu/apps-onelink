@@ -354,3 +354,22 @@ export const healthData = {
     },
   ],
 };
+
+export const toolsData = {
+  n: "Utilities",
+  d: "Tools",
+  i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+  app1logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/b1/3e/1cb13e1f-ac77-99ae-f2e9-b6549d660967/CTAppIconDots-0-1x_U007epad-0-1-85-220-0.png/246x0w.png",
+  app1: "https://apps.apple.com/tw/app/natural-insight-calendar/id535887902",
+  app2logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/53/cf/b453cfd4-d713-cc38-2e80-c01ffaf5e79c/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/246x0w.webp",
+  app2: "https://apps.apple.com/tw/app/world-clock-master-time-zones/id6448859727",
+  ls: [
+    {
+      l: "Windy",
+      i: "https://www.windy.com/img/favicon.png",
+      u: "https://www.windy.com/",
+    },
+  ],
+};
