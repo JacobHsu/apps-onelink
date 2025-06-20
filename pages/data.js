@@ -18,8 +18,8 @@ export const educationData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/c1/da/b4c1dabd-f0fd-8d9b-cc18-c5e881ebdf41/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
   app5: "https://apps.apple.com/tw/app/刷刷庫-多益高分加速器/id6498889068",
   app6logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/1e/3f/911e3fd4-32c4-55e1-59c4-dae761eaf789/logo_translate_color-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220-0.png/246x0w.webp",
-  app6: "https://apps.apple.com/tw/app/google-翻譯/id414706506",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/84/75/7684757f-7ad1-629a-1f66-86abefa5f012/AppIcon-PROD-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app//santa-升答-ai-toeic/id1148006701",
   app7logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/37/6e/61376e69-f4f4-b988-4b7f-d068c4baa554/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/wordbranch-字首字根字尾字典/id1080556151?platform=iphone",
