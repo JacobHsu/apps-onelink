@@ -19,7 +19,7 @@ export const educationData = {
   app5: "https://apps.apple.com/tw/app/刷刷庫-多益高分加速器/id6498889068",
   app6logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/84/75/7684757f-7ad1-629a-1f66-86abefa5f012/AppIcon-PROD-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
-  app6: "https://apps.apple.com/tw/app//santa-升答-ai-toeic/id1148006701",
+  app6: "https://apps.apple.com/tw/app/santa-升答-ai-toeic/id1148006701",
   app7logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/37/6e/61376e69-f4f4-b988-4b7f-d068c4baa554/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/wordbranch-字首字根字尾字典/id1080556151?platform=iphone",
@@ -94,8 +94,8 @@ export const productivityData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/40/36/7f403677-b537-3581-0003-7cfe9c9a02d0/AppIconProd-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
   app10: "https://apps.apple.com/tw/app/notion-筆記-任務-ai/id1232780281",
   app11logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/ef/d5/3befd56d-0a11-c15d-49e0-c6c99cde2089/logo_docs_2024q3_color-0-1x_U007epad-0-0-0-1-0-0-0-85-220-0.png/246x0w.webp",
-  app11: "https://apps.apple.com/tw/app/google-文件/id842842640",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/e6/c5/36e6c50d-2d70-2e2a-395a-b0b62df51bf2/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
+  app11: "https://apps.apple.com/tw/app/to-do-list-task-manager/id6497716500",
   app12logo:
 "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/de/5c/6dde5c01-4d47-cefc-316a-4e28c68e8a9a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app12:
@@ -131,7 +131,7 @@ export const newsData = {
   app2: "https://apps.apple.com/tw/app/threads/id6446901002",
   app3logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/e1/36/18e136cc-3920-4a30-782e-29c5b5367e1c/AppIconLLC-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp",
-  app3: "https://apps.apple.com/tw//app/telegram-messenger/id686449807",
+  app3: "https://apps.apple.com/tw/app/telegram-messenger/id686449807",
   app4logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/cf/39/e2cf3912-2b26-eb4a-2e52-333d8a50ac43/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-85-220.png/246x0w.webp",
   app4: "https://apps.apple.com/tw/app/line/id443904275",
@@ -192,7 +192,7 @@ export const aiData = {
   app2: "https://apps.apple.com/tw/app/google-gemini/id6477489729",
   app3logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/64/6f/c1646fcd-a854-c8c9-5d5e-8f4aa0fe1d16/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/246x0w.webp",
-  app3: "https://apps.apple.com/tw//app/perplexity-ask-anything/id1668000334",
+  app3: "https://apps.apple.com/tw/app/perplexity-ask-anything/id1668000334",
   app4logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/c9/ff/d8c9ff25-e14f-b148-bcdc-5f6b5f8ccd0e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/246x0w.webp",
   app4: "https://apps.apple.com/tw/app/grok/id6670324846",
@@ -257,7 +257,7 @@ export const financeData = {
   app2: "https://apps.apple.com/tw/app/pionex-派網-虛擬貨幣交易機器人/id1485348891",
   app3logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/e0/69/6ae06951-1fb5-d4ae-b762-658303d9a725/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
-  app3: "https://apps.apple.com/tw//app/coinmarketcap-加密貨幣追蹤器/id1282107098",
+  app3: "https://apps.apple.com/tw/app/coinmarketcap-加密貨幣追蹤器/id1282107098",
   app4logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/60/d0/4560d085-ce77-bf34-53eb-f569984a6081/AppIcon-1x_U007epad-0-1-85-220-0.png/246x0w.webp",
   app4: "https://apps.apple.com/tw/app/coinank-專業加密貨幣數據分析/id6444732071",
@@ -317,7 +317,7 @@ export const healthData = {
   app2: "https://apps.apple.com/tw/app/plop-便便日記/id1505427265?platform=iphone",
   app3logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/01/59/b10159ec-18a0-a26c-0844-ee7232e985e8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
-  app3: "https://apps.apple.com/tw//app/血壓測量儀-心率檢測-心臟健康應用/id6474854633",
+  app3: "https://apps.apple.com/tw/app/血壓測量儀-心率檢測-心臟健康應用/id6474854633",
   app4logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/6c/fc/cd6cfc9f-b98c-2af8-47c7-14307561b5b8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp",
   app4: "https://apps.apple.com/tw/app/呼吸-冥想-正念-breathing-exercises/id1590477138",
@@ -325,8 +325,8 @@ export const healthData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/eb/e7/93ebe7a7-ec76-253a-ca05-71e82fab30d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app5: "https://apps.apple.com/tw/app/easy-chair-workout-for-men/id6740841796",
   app6logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/16/22/01162234-c3f6-6d55-abc7-9dccfc6cbc7c/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/246x0w.webp",
-  app6: "https://apps.apple.com/tw/app/elite-food-diary-eat-mindfully/id1548289459",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/f7/97/61f79748-ea8f-5315-4690-529fa00d2ad2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/fitpulse-健身計劃者/id6746181610?platform=iphone",
   app7logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/80/61/978061c0-bb05-fe92-befc-5dde2b6e8cf0/AppIcon-0-0-1x_U007epad-0-1-0-0-P3-GLES2_U002c0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/seven-7-minute-workout/id650276551",
@@ -365,6 +365,12 @@ export const toolsData = {
   app2logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/53/cf/b453cfd4-d713-cc38-2e80-c01ffaf5e79c/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/246x0w.webp",
   app2: "https://apps.apple.com/tw/app/world-clock-master-time-zones/id6448859727",
+  app3logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/c8/db/43c8db26-7f3f-11f3-3762-d7f73e77ac41/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/246x0w.webp",
+  app3: "https://apps.apple.com/tw/app/bobby-track-subscriptions/id1059152023",
+  app4logo:
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/c7/5f/7bc75f90-8cdd-140b-c9a7-c81a55576682/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.png",
+  app4: "https://apps.apple.com/tw/app/subscription-cancel/id6593692260",
   ls: [
     {
       l: "Windy",
