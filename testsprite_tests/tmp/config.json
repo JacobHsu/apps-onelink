@@ -1,0 +1,29 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "apps-onelink",
+    "projectPath": "C:\\github\\apps-onelink",
+    "testIds": [
+      "TC001",
+      "TC002",
+      "TC003",
+      "TC004",
+      "TC005",
+      "TC006",
+      "TC007",
+      "TC008",
+      "TC009",
+      "TC010",
+      "TC011",
+      "TC012"
+    ],
+    "additionalInstruction": "執行所有測試案例，專注於 Onelink 應用的核心功能測試",
+    "envs": {
+      "API_KEY": "sk-user-MmDKwbGb4R7C2e51hrLhki3zgVVaeaDjYvs2romzvdvZk6kb6zD7zn2qTbysKMOuIEGxX7wuoh4WWiBoyisVptzI_KsqoGpBzf-8A4uy5rh1PuU5AT5O1VzepICLqxqwr8A"
+    }
+  },
+  "proxy": "http://e77d3dbc-9cdc-48df-856e-8cc563797807:T31SNwBONA52K5HywfmM68QXyyu3bhgy@tun.testsprite.com:8080"
+}

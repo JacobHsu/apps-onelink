@@ -1,0 +1,354 @@
+[
+  {
+    "id": "TC001",
+    "title": "Profile Management - Update Profile Information",
+    "description": "Verify that users can update their profile information including name, description, and avatar image, and changes are reflected immediately in the live preview.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Open Onelink application and navigate to profile management section."
+      },
+      {
+        "type": "action",
+        "description": "Input valid name, description, and upload a valid avatar image."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that the input fields accept the changes."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm the live preview updates immediately to reflect the new profile information."
+      }
+    ]
+  },
+  {
+    "id": "TC002",
+    "title": "Profile Management - Empty and Special Character Inputs",
+    "description": "Verify the system handles empty and special character inputs correctly for profile fields and updates the live preview accordingly.",
+    "category": "error handling",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Clear the name and description fields and remove the avatar image."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the system accepts empty fields if allowed or provides appropriate validation messages."
+      },
+      {
+        "type": "action",
+        "description": "Input special characters and unicode emojis into name and description fields."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm that the live preview correctly renders or sanitizes the special characters without errors."
+      }
+    ]
+  },
+  {
+    "id": "TC003",
+    "title": "Social Links Management - Add and Edit Multiple Platform Links",
+    "description": "Verify users can add, edit, and configure social media links across different platforms, and changes reflect instantly in live preview.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to social links management section."
+      },
+      {
+        "type": "action",
+        "description": "Add valid URLs for multiple supported social media platforms (e.g., Twitter, LinkedIn, Instagram)."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the links are accepted and displayed properly in the input fields."
+      },
+      {
+        "type": "action",
+        "description": "Edit existing social media URLs to new valid addresses."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm live preview updates to reflect the updated social links instantly."
+      }
+    ]
+  },
+  {
+    "id": "TC004",
+    "title": "Social Links Management - Invalid URL Input Handling",
+    "description": "Verify that invalid or malformed social media URLs are detected and appropriate error messages are displayed without updating live preview.",
+    "category": "error handling",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Input invalid URLs (e.g., missing protocol, invalid domain) in social links."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that validation error messages appear for invalid URLs."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm that the live preview does not update with invalid social links."
+      }
+    ]
+  },
+  {
+    "id": "TC005",
+    "title": "Custom Links Management - Add, Edit, Delete, and Reorder Links",
+    "description": "Verify users can add new custom links, edit existing ones, delete links, and reorder them using drag-and-drop with live preview updating accordingly.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to custom links management panel."
+      },
+      {
+        "type": "action",
+        "description": "Add multiple custom links with valid URLs and descriptive labels."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify each added link appears in the list and updates the live preview."
+      },
+      {
+        "type": "action",
+        "description": "Edit an existing custom link's label and URL."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm changes are saved and reflected in the live preview."
+      },
+      {
+        "type": "action",
+        "description": "Delete a custom link from the list."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the link is removed from the list and the live preview updates accordingly."
+      },
+      {
+        "type": "action",
+        "description": "Perform drag-and-drop reordering of custom links."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm the new order is saved and the live preview displays the reordered links."
+      }
+    ]
+  },
+  {
+    "id": "TC006",
+    "title": "Custom Links Management - Handling Invalid Inputs",
+    "description": "Verify form validation prevents adding or editing custom links with invalid URLs, empty labels, or missing fields.",
+    "category": "error handling",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Try to add a custom link with empty label and valid URL."
+      },
+      {
+        "type": "assertion",
+        "description": "Check for validation error preventing submission."
+      },
+      {
+        "type": "action",
+        "description": "Try to add a custom link with valid label but invalid URL format."
+      },
+      {
+        "type": "assertion",
+        "description": "Check for URL format validation errors."
+      },
+      {
+        "type": "action",
+        "description": "Try editing an existing link to have empty or invalid values."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify appropriate validation errors are displayed and changes are not saved."
+      }
+    ]
+  },
+  {
+    "id": "TC007",
+    "title": "Live Preview - Real-Time Update Accuracy",
+    "description": "Verify that any change made to profile, social links, or custom links is instantly and accurately reflected in the live preview without delay or errors.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Make changes in profile inputs such as name, description, avatar."
+      },
+      {
+        "type": "assertion",
+        "description": "Live preview updates immediately and displays the new profile data correctly."
+      },
+      {
+        "type": "action",
+        "description": "Add, edit, or delete social media links."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm live preview updates accurately to match social links changes."
+      },
+      {
+        "type": "action",
+        "description": "Modify custom links including adding, deleting, editing, and reordering."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify live preview reflects the changes instantaneously without errors."
+      }
+    ]
+  },
+  {
+    "id": "TC008",
+    "title": "URL-based Data Storage - Encode and Preserve Data",
+    "description": "Verify that all user data including profile information, social links, and custom links are correctly encoded into the URL, and reloaded properly after page refresh or URL sharing.",
+    "category": "functional",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Fill profile, social links, and custom links with valid data."
+      },
+      {
+        "type": "action",
+        "description": "Observe the URL and copy it."
+      },
+      {
+        "type": "action",
+        "description": "Reload the page using the copied URL."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify all form fields are populated with the saved data from the URL."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm the live preview matches the restored data exactly."
+      }
+    ]
+  },
+  {
+    "id": "TC009",
+    "title": "URL-based Data Storage - Large Data Size and Edge Cases",
+    "description": "Test the system's ability to handle large amounts of data encoded in the URL and edge cases such as special characters and maximum field lengths.",
+    "category": "error handling",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Input very large profile descriptions and many social and custom links close to typical URL length limits."
+      },
+      {
+        "type": "action",
+        "description": "Check the URL generation and encoding."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify that the URL correctly encodes the full data without truncation or corruption."
+      },
+      {
+        "type": "action",
+        "description": "Reload using the long URL."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify all data is restored correctly without loss."
+      }
+    ]
+  },
+  {
+    "id": "TC010",
+    "title": "Responsive Layout - Adaptation on Various Screen Sizes",
+    "description": "Verify the three-column layout (left input panel, right preview panel) adapts gracefully to desktop, tablet, and mobile screen sizes without breaking usability or visual quality.",
+    "category": "ui",
+    "priority": "High",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Open the application on desktop resolution and verify three-column layout."
+      },
+      {
+        "type": "assertion",
+        "description": "Check all UI elements are visible and appropriately sized."
+      },
+      {
+        "type": "action",
+        "description": "Resize viewport to tablet size."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify layout adjusts without overlapping elements and remains functional."
+      },
+      {
+        "type": "action",
+        "description": "Resize viewport to mobile screen size."
+      },
+      {
+        "type": "assertion",
+        "description": "Check layout stacks or adjusts columns to suit small screen, with clear visible UI and preview."
+      }
+    ]
+  },
+  {
+    "id": "TC011",
+    "title": "Demo Data Templates - Load and Apply Template Content",
+    "description": "Verify users can select various predefined demo templates (AI, education, finance, news, productivity, health, tools) and that the form fields and live preview populate correctly.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Open demo templates selection."
+      },
+      {
+        "type": "action",
+        "description": "Select each demo template one by one."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify form fields populate with the respective template data."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm live preview updates to display the template's appearance and content."
+      }
+    ]
+  },
+  {
+    "id": "TC012",
+    "title": "Form Components - Reusability and Consistency",
+    "description": "Verify reusable form components function consistently across different forms and pages maintaining UI/UX standards and handling inputs correctly.",
+    "category": "functional",
+    "priority": "Medium",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Inspect usage of reusable form components in profile, social links, and custom links forms."
+      },
+      {
+        "type": "assertion",
+        "description": "Confirm components render consistently with expected style and behavior."
+      },
+      {
+        "type": "action",
+        "description": "Test form input validations and interactions within reusable components."
+      },
+      {
+        "type": "assertion",
+        "description": "Verify validation messages, loading indicators, dividers, and input behaviors work as expected across forms."
+      }
+    ]
+  }
+]
