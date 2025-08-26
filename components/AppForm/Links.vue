@@ -87,18 +87,19 @@ const props = defineProps({
   modelValue: Array,
 });
 const appendLink = () => {
-  props.modelValue.push({
+  // 創建新的陣列而不是直接修改 props
+  const newLinks = [...props.modelValue, {
     i: "",
     l: "",
     u: "",
-  });
-  emit("update:modelValue", props.modelValue);
+  }];
+  emit("update:modelValue", newLinks);
 };
 
 const removeLink = (link) => {
-  const index = props.modelValue.indexOf(link);
-  props.modelValue.splice(index, 1);
-  emit("update:modelValue", props.modelValue);
+  // 創建新的陣列而不是直接修改 props，確保響應式更新
+  const newLinks = props.modelValue.filter(item => item !== link);
+  emit("update:modelValue", newLinks);
 };
 </script>
 <style scoped>

@@ -325,8 +325,8 @@ export const healthData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/eb/e7/93ebe7a7-ec76-253a-ca05-71e82fab30d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app5: "https://apps.apple.com/tw/app/easy-chair-workout-for-men/id6740841796",
   app6logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/f7/97/61f79748-ea8f-5315-4690-529fa00d2ad2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
-  app6: "https://apps.apple.com/tw/app/fitpulse-健身計劃者/id6746181610?platform=iphone",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/12/46/25124632-d7aa-5761-5757-549a5e322101/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.png",
+  app6: "https://apps.apple.com/tw/app/超慢跑計時器/id6445976187?platform=iphone",
   app7logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/80/61/978061c0-bb05-fe92-befc-5dde2b6e8cf0/AppIcon-0-0-1x_U007epad-0-1-0-0-P3-GLES2_U002c0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/seven-7-minute-workout/id650276551",
