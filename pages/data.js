@@ -155,12 +155,12 @@ export const newsData = {
   app10:
     "https://apps.apple.com/tw/app/todaii-easy-japanese-日文學習/id1107177166?platform=iphone",
   app11logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2a/2d/ab/2a2dab3f-a8ad-967d-e9c1-9c52eb638e9e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/1e/b5/301eb590-5aae-fd4a-f3b7-9b50c8e3e26f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
   app11:
-    "https://apps.apple.com/tw/app/easy-korean-news-쉬운-한국어-뉴스/id1441601041",
+    "https://apps.apple.com/tw/app/slack/id618783545",
   app12logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/c5/28/acc528d1-413a-d696-887c-994ca3669d2c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-  app12: "https://apps.apple.com/tw/app/ted/id376183339",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/8c/89/978c89e6-7013-5d43-8a36-c70af478b326/electron.png/246x0w.webp",
+  app12: "https://apps.apple.com/tw/app/folo-follow-everything/id6739802604",
   ls: [
     {
       l: "Google",
