@@ -209,8 +209,8 @@ export const aiData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8e/6e/8c8e6e9d-cfd9-43ca-9d7b-293e03400b62/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/246x0w.webp",
   app8: "https://apps.apple.com/tw/app/spaced-repetition-braindeck/id6476791990",
   app9logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/f5/74/9af57441-3d55-dcd4-b4ca-51ac65a96983/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/246x0w.webp",
-  app9: "https://apps.apple.com/tw/app/me-bot-ai-notes-chat/id6475769640",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/bc/0b/e1bc0b4a-db94-8d09-480b-23134a514d9e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/246x0w.webp",
+  app9: "https://apps.apple.com/tw/app/claude-by-anthropic/id6473753684",
   app10logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/4d/2a/474d2a55-1db5-756f-4836-8b980fbafbb0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp",
   app10: "https://apps.apple.com/tw/app/felo-search-the-world/id6598782546",
@@ -228,9 +228,9 @@ export const aiData = {
       u: "https://openrouter.ai/",
     },
     {
-      l: "Claude",
-      i: "https://claude.ai/images/claude_app_icon.png",
-      u: "https://claude.ai/",
+      l: "Google AI Studio",
+      i: "https://www.gstatic.com/aistudio/ai_studio_favicon_2_32x32.png",
+      u: "https://aistudio.google.com/",
     },
     {
       l: "Youlearn.ai",
