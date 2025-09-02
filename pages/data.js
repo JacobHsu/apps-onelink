@@ -151,9 +151,9 @@ export const newsData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
   app9: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
   app10logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/d2/8f/8dd28f34-2660-edd7-75e5-39141668500b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/14/5f/e7145f9c-8030-908e-b409-936543280f0f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/246x0w.webp",
   app10:
-    "https://apps.apple.com/tw/app/todaii-easy-japanese-日文學習/id1107177166?platform=iphone",
+    "https://apps.apple.com/tw/app/discord-聊天-玩遊戲-消磨時間/id985746746",
   app11logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/1e/b5/301eb590-5aae-fd4a-f3b7-9b50c8e3e26f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
   app11:
@@ -163,9 +163,9 @@ export const newsData = {
   app12: "https://apps.apple.com/tw/app/folo-follow-everything/id6739802604",
   ls: [
     {
-      l: "Google",
-      i: "https://www.google.com.tw/images/branding/googleg/1x/googleg_standard_color_128dp.png",
-      u: "https://www.google.com.tw/?hl=zh_TW",
+      l: "Comet",
+      i: "https://framerusercontent.com/images/bnQ1gGSCHS8T2mb5FVI2rQnx5YI.png",
+      u: "https://www.perplexity.ai/comet",
     },
     {
       l: "brave",
@@ -246,7 +246,7 @@ export const aiData = {
 };
 
 export const financeData = {
-  n: "Invest",
+  n: "Crypto",
   d: "Finance",
   i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
   app1logo:
@@ -283,9 +283,9 @@ export const financeData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/00/e9/3800e9b6-4ff2-5c92-ab7e-e9fe584e9748/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
   app11: "https://apps.apple.com/tw/app/metamask-crypto-wallet/id1438144202",
   app12logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/76/39/ce763958-c9c2-b7b6-3d31-20bee7c49a01/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/33/2b/a4332b65-9bbf-38dd-24fd-439a9026c568/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/246x0w.webp",
   app12:
-    "https://apps.apple.com/tw/app/topone-markets-跟隨交易菁英從全球市場獲利/id1461741702",
+    "https://apps.apple.com/tw/app/world-app-worldcoin-wallet/id1560859847",
   ls: [
     {
       l: "AiCoin",
@@ -298,9 +298,14 @@ export const financeData = {
       u: "https://playtoearn.com/",
     },
     {
-      l: "altFINS",
-      i: "https://altfins.com/frontend/images/altfins_logo_small.svg",
-      u: "https://altfins.com/",
+      l: "DappRadar",
+      i: "https://static.dappradar.com/website-fe-pr/public-assets/favicon-16x16.png",
+      u: "https://dappradar.com/",
+    },
+    {
+      l: "FastBull",
+      i: "https://img.fastbull.com/static/images/favicon.ico",
+      u: "https://www.fastbull.com/",
     },
   ],
 };
@@ -376,6 +381,11 @@ export const toolsData = {
       l: "Windy",
       i: "https://www.windy.com/img/favicon.png",
       u: "https://www.windy.com/",
+    },
+    {
+      l: "Typhoon tw",
+      i: "https://typhoon.tw/static/img/titlelogo.ico",
+      u: "https://typhoon.tw/",
     },
   ],
 };
