@@ -5,6 +5,7 @@ mdc: true
 transition: fade-out
 layout: cover
 background: '#ffffff'
+# Enable GitHub Pages deployment
 ---
 
 <div class="flex flex-col items-center justify-center h-full text-center p-8 !bg-white">
