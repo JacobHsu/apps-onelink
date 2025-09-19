@@ -4,7 +4,9 @@
 
 Onelink 是一個簡單易用的 app 整理和管理平台，讓你可以將所有常用的應用程式和網站連結整理在一個頁面中，方便分享給朋友或在不同裝置間使用。
 
-![Screenshot](https://github.com/user-attachments/assets/e879eae9-7fcc-4a45-afc1-6cba67df0ec7)
+![Screenshot](https://github.com/user-attachments/assets/e879eae9-7fcc-4a45-afc1-6cba67df0ec7)  
+
+[Presentation](https://jacobhsu.github.io/apps-onelink)  
 
 ## 主要功能
 
