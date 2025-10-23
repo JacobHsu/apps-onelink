@@ -324,20 +324,20 @@ export const healthData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/01/59/b10159ec-18a0-a26c-0844-ee7232e985e8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
   app3: "https://apps.apple.com/tw/app/血壓測量儀-心率檢測-心臟健康應用/id6474854633",
   app4logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/6c/fc/cd6cfc9f-b98c-2af8-47c7-14307561b5b8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp",
-  app4: "https://apps.apple.com/tw/app/呼吸-冥想-正念-breathing-exercises/id1590477138",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/89/e2/3189e219-0462-30cd-8c68-6f166b9e7c05/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp",
+  app4: "https://apps.apple.com/tw/app/血氧-血氧檢測/id6599848551",
   app5logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/eb/e7/93ebe7a7-ec76-253a-ca05-71e82fab30d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app5: "https://apps.apple.com/tw/app/easy-chair-workout-for-men/id6740841796",
   app6logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/12/46/25124632-d7aa-5761-5757-549a5e322101/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.png",
-  app6: "https://apps.apple.com/tw/app/超慢跑計時器/id6445976187?platform=iphone",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/c3/c2/97c3c2bc-cb5e-7561-d87a-3053e6f6af1e/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/246x0w.webp",
+  app6: "https://apps.apple.com/tw/app/棒式運動挑戰/id1442191346",
   app7logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/80/61/978061c0-bb05-fe92-befc-5dde2b6e8cf0/AppIcon-0-0-1x_U007epad-0-1-0-0-P3-GLES2_U002c0-85-220.png/246x0w.webp",
   app7: "https://apps.apple.com/tw/app/seven-7-minute-workout/id650276551",
   app8logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/fe/84/d2fe848a-ca49-de17-01fe-3b9b246c2165/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-  app8: "https://apps.apple.com/tw/app/calmmind-relax-breathe/id6477401068",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/12/46/25124632-d7aa-5761-5757-549a5e322101/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.png",
+  app8: "https://apps.apple.com/tw/app/超慢跑計時器/id6445976187?platform=iphone",
   app9logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/ba/b6/3bbab6ce-f9dc-530d-0792-b2750e47ef8e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
   app9: "https://apps.apple.com/tw/app/propel-adhd過動症智力遊戲-專注的動腦-益智遊戲/id6472498233",
@@ -345,9 +345,9 @@ export const healthData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/60/db/d060dbb7-6170-0896-b52a-493882b6f811/AppIcon-0-0-1x_U007epad-0-85-220.png/246x0w.webp",
   app10: "https://apps.apple.com/tw/app/iq-test-brain-games-simbo/id1670740872",
   app11logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/0c/719f0c45-f889-bbd2-e8c3-05f9495c4236/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/10/9c/96109cc6-c610-97c6-32e4-11d416589b6d/AppIcon1-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
   app11:
-    "https://apps.apple.com/tw/app/hypertrophy-log-aesthetics/id6450398336",
+    "https://apps.apple.com/tw/app/calorie-ai-macro-food-scanner/id6744751535?platform=iphone",
   app12logo:
     "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/40/be/8840be40-4884-5e33-a507-c3ad4f5e0fa0/AppIcon_1-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
   app12: "https://apps.apple.com/tw/app/gym-workout-planner-basic-fit/id1350534443?platform=iphone",
