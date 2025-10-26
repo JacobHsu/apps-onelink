@@ -91,11 +91,11 @@ export const productivityData = {
     "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/31/3a/7b313a38-8cf6-c603-a28f-ac4390fc71c3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
   app9: "https://apps.apple.com/tw/app/repov-電影-書籍-美食-記錄世界的所有視角/id6502975294",
   app10logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/40/36/7f403677-b537-3581-0003-7cfe9c9a02d0/AppIconProd-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
-  app10: "https://apps.apple.com/tw/app/notion-筆記-任務-ai/id1232780281",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/ad/74/b1ad746d-f38b-38f7-a70e-b86046675d5c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+  app10: "https://apps.apple.com/tw/app/goalsteps-goal-tracker/id6749514026?platform=iphone",
   app11logo:
-    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/e6/c5/36e6c50d-2d70-2e2a-395a-b0b62df51bf2/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
-  app11: "https://apps.apple.com/tw/app/to-do-list-task-manager/id6497716500",
+    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/98/1a/74981a00-0b6d-1530-f808-14ba07614bd8/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/246x0w.webp",
+  app11: "https://apps.apple.com/tw/app/habit-tracker-horizon/id1524155304?platform=iphone",
   app12logo:
 "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/de/5c/6dde5c01-4d47-cefc-316a-4e28c68e8a9a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
   app12:
