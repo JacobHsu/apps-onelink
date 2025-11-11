@@ -13,49 +13,49 @@
           @click="fillDemoData('ai')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add AI data </span>
+          <span> Add AI </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('education')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Education data </span>
+          <span> Add Education </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('finance')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Finance data </span>
+          <span> Add Finance </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('news')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add News data </span>
+          <span> Add News </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('productivity')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Productivity data </span>
+          <span> Add Productivity </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('health')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Health data </span>
+          <span> Add Health </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('tools')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Tools data </span>
+          <span> Add Tools </span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
       </div>

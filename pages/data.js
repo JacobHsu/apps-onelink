@@ -168,6 +168,11 @@ export const newsData = {
       u: "https://www.perplexity.ai/comet",
     },
     {
+      l: "Atlas",
+      i: "https://images.ctfassets.net/8su2tbn87fck/6sGycP6cV9sSE5irYK4bGy/f6eb9414c76057e6d759a7772bb8a559/Atlas_Tahoe_Icon.png",
+      u: "https://openai.com/index/introducing-chatgpt-atlas/",
+    },
+    {
       l: "brave",
       i: "https://brave.com/favicon.ico",
       u: "https://brave.com/",
