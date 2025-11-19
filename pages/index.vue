@@ -2,9 +2,9 @@
   <div class="grid h-screen grid-cols-3 divide-x">
     <div class="flex flex-col h-screen col-span-2 bg-slate-100">
       <div class="flex-1 p-8 overflow-y-auto">
-        <app-form-profile :name="data.n" :desc="data.d" :image="data.i" />
+        <app-form-profile v-model:name="data.n" v-model:desc="data.d" :image="data.i" />
         <app-form-hr />
-        <app-form-social-links v-bind="data" />
+        <app-form-social-links :apps="data.apps" />
         <app-form-hr />
         <app-form-links v-model="data.ls" />
       </div>
@@ -65,36 +65,16 @@
 </template>
 
 <script setup>
-import { educationData, productivityData, newsData, aiData, financeData, healthData, toolsData } from "./data.js";
+const { demoData } = useAppData();
 
 const data = ref({
   n: "",
   d: "",
   i: "",
-  app1: "",
-  app2: "",
-  app3: "",
-  app4: "",
-  app5: "",
-  app6: "",
-  app7: "",
-  app8: "",
-  app9: "",
-  app10: "",
-  app11: "",
-  app12: "",
+  apps: [],
   ls: [],
 });
 
-const demoData = {
-  education: educationData,
-  productivity: productivityData,
-  news: newsData,
-  ai: aiData,
-  finance: financeData,
-  health: healthData,
-  tools: toolsData,
-};
 const fillDemoData = (type) => {
   data.value = demoData[type];
 };

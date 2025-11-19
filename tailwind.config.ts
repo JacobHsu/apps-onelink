@@ -1,5 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from 'tailwindcss'
+import tailwindForms from '@tailwindcss/forms'
+
+export default <Config> {
   darkMode: "media",
   theme: {
     fontFamily: {
@@ -31,7 +33,7 @@ module.exports = {
       ],
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [tailwindForms],
   content: [
     `components/**/*.{vue,js}`,
     `layouts/**/*.vue`,

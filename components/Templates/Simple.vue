@@ -70,20 +70,10 @@ const props = defineProps({
 });
 
 const socialLinks = computed(() => {
-  return [
-    { url: props.acc.app1, img: props.acc.app1logo },
-    { url: props.acc.app2, img: props.acc.app2logo },
-    { url: props.acc.app3, img: props.acc.app3logo },
-    { url: props.acc.app4, img: props.acc.app4logo },
-    { url: props.acc.app5, img: props.acc.app5logo },
-    { url: props.acc.app6, img: props.acc.app6logo },
-    { url: props.acc.app7, img: props.acc.app7logo },
-    { url: props.acc.app8, img: props.acc.app8logo },
-    { url: props.acc.app9, img: props.acc.app9logo },
-    { url: props.acc.app10, img: props.acc.app10logo },
-    { url: props.acc.app11, img: props.acc.app11logo },
-    { url: props.acc.app12, img: props.acc.app12logo },
-  ].filter((link) => link.url);
+  return (props.acc.apps || []).map(app => ({
+    url: app.url,
+    img: app.logo
+  })).filter(link => link.url);
 });
 
 const allSocialLinksAreEmpty = computed(() => {

@@ -2,24 +2,24 @@
   <base-form-section title="Apps Links" description="Some Apps links">
     <div class="shadow sm:overflow-hidden sm:rounded-md">
       <div class="grid grid-cols-2 gap-8 px-4 py-5 bg-white sm:p-6">
-        <div v-for="app in apps" :key="app.id">
-          <label :for="app.id" class="block text-sm font-medium text-gray-700">
-            {{ app.label }}
+        <div v-for="(app, index) in apps" :key="index">
+          <label :for="'app-' + index" class="block text-sm font-medium text-gray-700">
+            {{ app.name }}
           </label>
           <div class="flex mt-1 rounded-md shadow-sm">
             <span
               class="inline-flex items-center px-3 text-sm text-gray-500 border border-r-0 border-gray-300 rounded-l-md bg-gray-50"
             >
-              <icon name="ph:app-store-logo-fill" class="w-5 h-5" />
+              <img :src="app.logo" class="w-5 h-5 rounded-full" v-if="app.logo" />
+              <icon name="ph:app-store-logo-fill" class="w-5 h-5" v-else />
             </span>
             <input
-              type="search"
-              :name="app.id"
-              :id="app.id"
-              :value="extractAppName(app.value)"
-              @input="$emit('update:' + app.id, $event.target.value)"
-              class="flex-1 block w-full border-gray-300 rounded-none rounded-r-md focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder=""
+              type="text"
+              :name="'app-' + index"
+              :id="'app-' + index"
+              :value="app.url"
+              readonly
+              class="flex-1 block w-full border-gray-300 rounded-none rounded-r-md focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-gray-50"
             />
           </div>
         </div>
@@ -28,40 +28,10 @@
   </base-form-section>
 </template>
 <script setup>
-const props = defineProps([
-  "app1",
-  "app2",
-  "app3",
-  "app4",
-  "app5",
-  "app6",
-  "app7",
-  "app8",
-  "app9",
-  "app10",
-  "app11",
-  "app12",
-]);
-
-const apps = computed(() => [
-  { id: "app1", label: "App 1", value: props.app1 },
-  { id: "app2", label: "App 2", value: props.app2 },
-  { id: "app3", label: "App 3", value: props.app3 },
-  { id: "app4", label: "App 4", value: props.app4 },
-  { id: "app5", label: "App 5", value: props.app5 },
-  { id: "app6", label: "App 6", value: props.app6 },
-  { id: "app7", label: "App 7", value: props.app7 },
-  { id: "app8", label: "App 8", value: props.app8 },
-  { id: "app9", label: "App 9", value: props.app9 },
-  { id: "app10", label: "App 10", value: props.app10 },
-  { id: "app11", label: "App 11", value: props.app11 },
-  { id: "app12", label: "App 12", value: props.app12 },
-]);
-
-const extractAppName = (url) => {
-  if (!url) return '';
-  const regex = /\/app\/([^\/]+)\//;
-  const match = url.match(regex);
-  return match ? decodeURIComponent(match[1]) : 'Unknown App';
-};
+const props = defineProps({
+  apps: {
+    type: Array,
+    default: () => [],
+  },
+});
 </script>
