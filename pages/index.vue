@@ -78,4 +78,6 @@ const data = ref({
 const fillDemoData = (type) => {
   data.value = demoData[type];
 };
+
+fillDemoData('ai');
 </script>

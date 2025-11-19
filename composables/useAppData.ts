@@ -305,19 +305,19 @@ export const useAppData = () => {
         url: "https://apps.apple.com/tw/app/kimi-智能助手/id6474233312",
       },
       {
+        name: "DeepSeek",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/91/b4/8b91b4b4-aef5-42bc-d7c1-c933f14da6ed/Placeholder.mill/200x200bb-75.webp",
+        url: "https://apps.apple.com/tw/app/deepseek-ai-智能助手/id6737597349",
+      },
+      {
         name: "Copilot",
         logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/ff/16/03ff16d2-4d03-9174-609b-7377b1d2baf0/AppIcon_Production-0-1x_U007epad-0-4-85-220-0.png/246x0w.webp",
         url: "https://apps.apple.com/tw/app/microsoft-copilot/id6472538445",
       },
       {
-        name: "Aido AI",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/7f/2a/eb7f2ab0-d4d9-e2f3-a0bc-dbdb9cde47a6/AppIcon18-0-1x_U007epad-0-1-0-85-220-0.jpeg/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/aido-ai-just-answer/id6446410670",
-      },
-      {
-        name: "BrainDeck",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8e/6e/8c8e6e9d-cfd9-43ca-9d7b-293e03400b62/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/spaced-repetition-braindeck/id6476791990",
+        name: "ChatOn",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/77/61/f4776139-8c9e-6b71-832e-de5d98598dc0/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/200x200ia-75.webp", 
+        url: "https://apps.apple.com/tw/app/chaton-ai-chatbot-assistant/id1661308505",
       },
       {
         name: "Claude",
@@ -325,14 +325,14 @@ export const useAppData = () => {
         url: "https://apps.apple.com/tw/app/claude-by-anthropic/id6473753684",
       },
       {
-        name: "Felo",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/4d/2a/474d2a55-1db5-756f-4836-8b980fbafbb0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/felo-search-the-world/id6598782546",
-      },
-      {
         name: "Liner",
         logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/6d/6e/b86d6e45-9aa2-4241-cfc0-fdd180b475e4/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
         url: "https://apps.apple.com/tw/app/liner-ai-search-with-sources/id955395198?platform=iphone",
+      },
+      {
+        name: "Felo",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/4d/2a/474d2a55-1db5-756f-4836-8b980fbafbb0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp",
+        url: "https://apps.apple.com/tw/app/felo-search-the-world/id6598782546",
       },
       {
         name: "Poe",
