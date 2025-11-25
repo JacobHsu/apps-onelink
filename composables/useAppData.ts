@@ -165,9 +165,9 @@ export const useAppData = () => {
         url: "https://apps.apple.com/tw/app/habit-tracker-horizon/id1524155304?platform=iphone",
       },
       {
-        name: "Haptive",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/de/5c/6dde5c01-4d47-cefc-316a-4e28c68e8a9a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/haptive-stop-procrastination/id1620752370",
+        name: "Blissful",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/0c/55/000c552a-831b-de77-9d7f-759f560343db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/blissful-journal-mood-tracker/id6476490678",
       },
     ],
     ls: [
@@ -175,6 +175,11 @@ export const useAppData = () => {
         l: "Notion",
         i: "https://www.notion.com/front-static/favicon.ico",
         u: "https://www.notion.com/zh-tw",
+      },
+      {
+        l: "Airtable",
+        i: "https://www.airtable.com/favicon.ico",
+        u: "https://www.airtable.com/",
       },
       {
         l: "Trello",
@@ -275,8 +280,8 @@ export const useAppData = () => {
   };
 
   const aiData: AppCategory = {
-    n: "Assistant",
-    d: "AI",
+    n: "AI",
+    d: "Assistant",
     i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
     apps: [
       {
@@ -530,8 +535,8 @@ export const useAppData = () => {
   };
 
   const toolsData: AppCategory = {
-    n: "Utilities",
-    d: "Tools",
+    n: "Tools",
+    d: "Utilities",
     i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
     apps: [
       {
@@ -570,8 +575,8 @@ export const useAppData = () => {
   };
 
   const tvData: AppCategory = {
-    n: "Entertainment",
-    d: "TV",
+    n: "TV",
+    d: "Entertainment",
     i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
     apps: [
       {
@@ -605,6 +610,11 @@ export const useAppData = () => {
         l: "JustWatch",
         i: "https://www.justwatch.com/appassets/favicon.ico",
         u: "https://www.justwatch.com/",
+      },
+      {
+        l: "IMDb",
+        i: "https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png",
+        u: "https://www.imdb.com/calendar/?region=TW&type=MOVIE",
       },
       {
         l: "TMDB",

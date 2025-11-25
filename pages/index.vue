@@ -13,56 +13,56 @@
           @click="fillDemoData('ai')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add AI </span>
+          <span>AI</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('education')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Education </span>
+          <span>Language</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('finance')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Finance </span>
+          <span>Crypto</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('news')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add News </span>
+          <span>Information</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('productivity')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Productivity </span>
+          <span>Habit</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('health')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Health </span>
+          <span>Fitness</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('tv')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add TV </span>
+          <span>TV</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
           @click="fillDemoData('tools')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >
-          <span> Add Tools </span>
+          <span>Tools</span>
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
       </div>
