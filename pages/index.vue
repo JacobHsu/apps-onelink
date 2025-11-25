@@ -52,6 +52,13 @@
           <icon name="mdi:code-json" class="w-4 h-4" />
         </button>
         <button
+          @click="fillDemoData('tv')"
+          class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
+        >
+          <span> Add TV </span>
+          <icon name="mdi:code-json" class="w-4 h-4" />
+        </button>
+        <button
           @click="fillDemoData('tools')"
           class="flex items-center h-12 px-4 space-x-2 text-xs font-medium bg-white border-r text-slate-700"
         >

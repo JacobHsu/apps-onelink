@@ -569,6 +569,51 @@ export const useAppData = () => {
     ],
   };
 
+  const tvData: AppCategory = {
+    n: "Entertainment",
+    d: "TV",
+    i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+    apps: [
+      {
+        name: "Netflix",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/b8/45/b2b845ba-155b-c175-ce43-740bc7f28cb2/Placeholder.mill/200x200bb-75.webp",
+        url: "https://apps.apple.com/tw/app/netflix/id363590051",
+      },
+      {
+        name: "Disney+",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/d4/e5/c7d4e536-33cc-1e2c-833e-d2772c5d2d5f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/disney/id1446075923",
+      },
+      {
+        name: "HBO Max",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/ed/2c/23ed2c0b-47f7-2245-f61b-6ee019035245/AppIcon-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/hbo-max-串流播放電視節目和電影/id1666653815",
+      },
+      {
+        name: "Apple TV",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/38/04/1d380449-215e-f6e2-0ba4-68538c2be4d0/Placeholder.mill/200x200bb-75.webp",
+        url: "https://apps.apple.com/tw/app/apple-tv/id1174078549",
+      },
+    ],
+    ls: [
+      {
+        l: "trakt.tv",
+        i: "https://walter-r2.trakt.tv/hotlink-ok/public/2024/favicon.svg",
+        u: "https://trakt.tv/calendars/shows",
+      },
+      {
+        l: "JustWatch",
+        i: "https://www.justwatch.com/appassets/favicon.ico",
+        u: "https://www.justwatch.com/",
+      },
+      {
+        l: "TMDB",
+        i: "https://www.themoviedb.org/assets/2/v4/icons/mstile-144x144-30e7905a8315a080978ad6aeb71c69222b72c2f75d26dab1224173a96fecc962.png",
+        u: "https://www.themoviedb.org/",
+      },
+    ],
+  };
+
   const demoData: Record<string, AppCategory> = {
     education: educationData,
     productivity: productivityData,
@@ -576,6 +621,7 @@ export const useAppData = () => {
     ai: aiData,
     finance: financeData,
     health: healthData,
+    tv: tvData,
     tools: toolsData,
   };
 
