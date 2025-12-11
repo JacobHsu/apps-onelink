@@ -12,7 +12,7 @@ on:
 
 # 定義環境變數
 env:
-  NODE_VERSION: '18'
+  NODE_VERSION: '20'  # 升級到 Node.js 20 以支援 @vitest/coverage-v8
   PNPM_VERSION: '10'
 
 jobs:
