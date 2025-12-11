@@ -1,0 +1,82 @@
+# Pull Request 測試工作流程
+# 在 PR 時自動運行測試並評論覆蓋率報告
+
+name: 📝 PR Tests
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-and-comment:
+    name: 測試並評論覆蓋率
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 檢出代碼
+        uses: actions/checkout@v4
+
+      - name: 📦 安裝 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: '10'
+
+      - name: 🟢 設置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: 📚 安裝依賴
+        run: pnpm install --frozen-lockfile
+
+      - name: 🧪 運行測試並生成覆蓋率
+        run: pnpm test:coverage
+        continue-on-error: true
+
+      - name: 📊 讀取覆蓋率摘要
+        id: coverage
+        run: |
+          if [ -f coverage/coverage-summary.json ]; then
+            COVERAGE=$(cat coverage/coverage-summary.json | jq -r '.total.lines.pct')
+            echo "coverage=$COVERAGE" >> $GITHUB_OUTPUT
+          else
+            echo "coverage=N/A" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 💬 評論 PR
+        uses: actions/github-script@v7
+        if: github.event_name == 'pull_request'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const coverage = '${{ steps.coverage.outputs.coverage }}';
+            const emoji = parseFloat(coverage) >= 80 ? '🎉' : parseFloat(coverage) >= 60 ? '✅' : '⚠️';
+
+            const comment = `## ${emoji} 測試結果
+
+            ### 📊 測試覆蓋率：${coverage}%
+
+            ${parseFloat(coverage) >= 80 ? '太棒了！覆蓋率達到優秀水平！' :
+              parseFloat(coverage) >= 60 ? '覆蓋率良好，繼續保持！' :
+              '建議提高測試覆蓋率到 60% 以上'}
+
+            **詳細報告**: 請查看 Actions 頁面下載完整的覆蓋率報告
+
+            ---
+            🤖 由 GitHub Actions 自動生成`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: 📎 上傳覆蓋率報告
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pr-coverage-report
+          path: coverage/
+          retention-days: 30

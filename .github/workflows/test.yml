@@ -1,0 +1,132 @@
+# GitHub Actions 自動測試工作流程
+# 每次 push 或 Pull Request 時自動運行測試
+
+name: 🧪 Tests
+
+# 觸發條件：當代碼被推送到這些分支，或創建 PR 時
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+# 定義環境變數
+env:
+  NODE_VERSION: '18'
+  PNPM_VERSION: '10'
+
+jobs:
+  # 第一個 Job：運行測試
+  test:
+    name: 運行測試
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步驟 1: 檢出代碼
+      - name: 📥 檢出代碼
+        uses: actions/checkout@v4
+
+      # 步驟 2: 設置 pnpm
+      - name: 📦 安裝 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      # 步驟 3: 設置 Node.js
+      - name: 🟢 設置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'pnpm'
+
+      # 步驟 4: 安裝依賴
+      - name: 📚 安裝依賴
+        run: pnpm install --frozen-lockfile
+
+      # 步驟 5: 運行測試
+      - name: 🧪 運行測試
+        run: pnpm test:run
+
+      # 步驟 6: 生成測試覆蓋率報告
+      - name: 📊 生成覆蓋率報告
+        run: pnpm test:coverage
+        continue-on-error: true  # 即使覆蓋率不達標也繼續
+
+      # 步驟 7: 上傳覆蓋率報告到 Codecov（可選）
+      # 需要先在 https://codecov.io 註冊並獲取 token
+      # - name: 📤 上傳覆蓋率到 Codecov
+      #   uses: codecov/codecov-action@v4
+      #   with:
+      #     token: ${{ secrets.CODECOV_TOKEN }}
+      #     files: ./coverage/coverage-final.json
+      #     fail_ci_if_error: false
+
+      # 步驟 8: 上傳覆蓋率報告為 Artifact（可下載查看）
+      - name: 📎 上傳覆蓋率報告
+        uses: actions/upload-artifact@v4
+        if: always()  # 即使測試失敗也上傳
+        with:
+          name: coverage-report
+          path: coverage/
+          retention-days: 30
+
+  # 第二個 Job：檢查代碼品質（Lint）
+  lint:
+    name: 代碼檢查
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 檢出代碼
+        uses: actions/checkout@v4
+
+      - name: 📦 安裝 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - name: 🟢 設置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'pnpm'
+
+      - name: 📚 安裝依賴
+        run: pnpm install --frozen-lockfile
+
+      # 如果有 ESLint 配置，取消註解以下行
+      # - name: 🔍 運行 ESLint
+      #   run: pnpm lint
+
+  # 第三個 Job：建構檢查
+  build:
+    name: 建構檢查
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 檢出代碼
+        uses: actions/checkout@v4
+
+      - name: 📦 安裝 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - name: 🟢 設置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'pnpm'
+
+      - name: 📚 安裝依賴
+        run: pnpm install --frozen-lockfile
+
+      - name: 🏗️ 建構專案
+        run: pnpm build
+
+      # 上傳建構結果（可選）
+      - name: 📎 上傳建構結果
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-output
+          path: .output/
+          retention-days: 7
