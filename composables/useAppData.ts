@@ -559,6 +559,16 @@ export const useAppData = () => {
         logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/c7/5f/7bc75f90-8cdd-140b-c9a7-c81a55576682/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.png",
         url: "https://apps.apple.com/tw/app/subscription-cancel/id6593692260",
       },
+        {
+        name: "發票怪獸",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/d7/07/3bd70742-da8e-d682-568c-89ab6071aa6d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/發票怪獸/id1089127465",
+      },
+      {
+        name: "發票載具",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/16/35/ab1635eb-1b5f-ef1b-97b3-efa85845d33e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/發票載具-統一發票對獎-雲端加碼獎-夢幻發票自訂圖片/id1434785043",
+      },
     ],
     ls: [
       {
