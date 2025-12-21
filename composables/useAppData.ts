@@ -301,13 +301,13 @@ export const useAppData = () => {
       },
       {
         name: "Grok",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/c9/ff/d8c9ff25-e14f-b148-bcdc-5f6b5f8ccd0e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/246x0w.webp",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/c0/91/bbc0913c-a295-1c5b-831f-541765d977ef/Placeholder.mill/200x200bb-75.webp",
         url: "https://apps.apple.com/tw/app/grok/id6670324846",
       },
       {
-        name: "Kimi",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/04/49/6d0449c5-dc69-da92-b23a-f0c00502e0a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/kimi-智能助手/id6474233312",
+        name: "Google NotebookLM",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/cf/05/4acf05b8-a96f-514d-c266-1ef7ab156e15/logo_notebooklm_color-0-1x_U007emarketing-0-0-0-7-0-0-0-0-85-220-0.png/400x400ia-75.webp",
+        url: "https://apps.apple.com/tw/app/google-notebooklm/id6737527615",
       },
       {
         name: "DeepSeek",
@@ -340,9 +340,9 @@ export const useAppData = () => {
         url: "https://apps.apple.com/tw/app/felo-search-the-world/id6598782546",
       },
       {
-        name: "Poe",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/9e/67/b69e6752-57a7-7f27-595c-7787319e91d8/AppIcon_Poe-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/poe-fast-ai-chat/id1640745955",
+        name: "Kimi",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/04/49/6d0449c5-dc69-da92-b23a-f0c00502e0a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/246x0w.webp",
+        url: "https://apps.apple.com/tw/app/kimi-智能助手/id6474233312",
       },
     ],
     ls: [
@@ -515,14 +515,14 @@ export const useAppData = () => {
         url: "https://apps.apple.com/tw/app/iq-test-brain-games-simbo/id1670740872",
       },
       {
-        name: "Calorie AI",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/10/9c/96109cc6-c610-97c6-32e4-11d416589b6d/AppIcon1-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
+        name: "Calzeno : AI 卡路里計算器",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/c7/b2/0ac7b266-9ca1-ac0d-653b-ab81f4b5621d/Placeholder.mill/200x200bb-75.webp",
         url: "https://apps.apple.com/tw/app/calorie-ai-macro-food-scanner/id6744751535?platform=iphone",
       },
       {
-        name: "Gym Workout",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/40/be/8840be40-4884-5e33-a507-c3ad4f5e0fa0/AppIcon_1-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/gym-workout-planner-basic-fit/id1350534443?platform=iphone",
+        name: "YouBike微笑單車",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/3f/5d/aa3f5d5a-00ce-acf4-b5cf-cc38f0e13d82/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/youbike微笑單車-官方版/id1483423095",
       },
     ],
     ls: [
@@ -568,6 +568,16 @@ export const useAppData = () => {
         name: "發票載具",
         logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/16/35/ab1635eb-1b5f-ef1b-97b3-efa85845d33e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/200x200ia-75.webp",
         url: "https://apps.apple.com/tw/app/發票載具-統一發票對獎-雲端加碼獎-夢幻發票自訂圖片/id1434785043",
+      },
+      {
+        name: "Whoscall 象卡來",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/49/2a/93492acb-32c8-6c30-c84d-6a1e3e593de3/Placeholder.mill/200x200bb-75.webp",
+        url: "https://apps.apple.com/tw/app/whoscall-象卡來/id929968679",
+      },
+        {
+        name: "ACCUPASS - 活動通",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/4c/64/374c6444-94e0-881a-69c0-0509b8150062/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/accupass-活動通/id516844208",
       },
     ],
     ls: [
