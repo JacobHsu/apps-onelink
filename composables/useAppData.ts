@@ -240,14 +240,14 @@ export const useAppData = () => {
         url: "https://apps.apple.com/tw/app/snipd-ai-podcast-player/id1557206126",
       },
       {
-        name: "Todaii",
-        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp",
-        url: "https://apps.apple.com/tw/app/todaii-english-學英文-更快-更好/id1625797002",
-      },
-      {
         name: "Discord",
         logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/14/5f/e7145f9c-8030-908e-b409-936543280f0f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/246x0w.webp",
         url: "https://apps.apple.com/tw/app/discord-聊天-玩遊戲-消磨時間/id985746746",
+      },
+      {
+        name: "ListenLeap",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/a4/4b/a6a44ba1-55bc-e864-93b2-9ce9c3e87c21/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+        url: "https://apps.apple.com/tw/app/listenleap-幫你聽懂英文podcast-輕鬆學英文/id6642688167",
       },
       {
         name: "Slack",
@@ -265,6 +265,11 @@ export const useAppData = () => {
         l: "Comet",
         i: "https://framerusercontent.com/images/bnQ1gGSCHS8T2mb5FVI2rQnx5YI.png",
         u: "https://www.perplexity.ai/comet",
+      },
+      {
+        l: "Atlas",
+        i: "https://images.ctfassets.net/8su2tbn87fck/6sGycP6cV9sSE5irYK4bGy/f6eb9414c76057e6d759a7772bb8a559/Atlas_Tahoe_Icon.png?q=90&fm=webp",
+        u: "https://chatgpt.com/zh-Hant/atlas",
       },
       {
         l: "brave",

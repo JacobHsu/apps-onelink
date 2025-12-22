@@ -101,6 +101,9 @@ const removeLink = (link) => {
   const newLinks = props.modelValue.filter(item => item !== link);
   emit("update:modelValue", newLinks);
 };
+
+// 暴露函數供測試使用
+defineExpose({ removeLink, appendLink });
 </script>
 <style scoped>
 .flip-list-move {
