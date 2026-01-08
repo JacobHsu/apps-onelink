@@ -579,7 +579,17 @@ export const useAppData = () => {
         logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/49/2a/93492acb-32c8-6c30-c84d-6a1e3e593de3/Placeholder.mill/200x200bb-75.webp",
         url: "https://apps.apple.com/tw/app/whoscall-象卡來/id929968679",
       },
-        {
+      {
+        name: "Send Anywhere - File Transfer",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/35/11/5235113d-d33a-04fd-8306-799149db1d47/Placeholder.mill/200x200bb-75.webp",
+        url: "https://apps.apple.com/tw/app/send-anywhere-file-transfer/id596642855",
+      },
+      {
+        name: "Radddio - Radio 線上收音機與 FM 電台 ",
+        logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/42/6a/e9426ae3-7b8a-d805-0be2-9b394603a99d/Placeholder.mill/200x200bb-75.webp",
+        url: "https://apps.apple.com/tw/app/radio-線上收音機與-fm-電台-radddio/id6737881349",
+      },
+      {
         name: "ACCUPASS - 活動通",
         logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/4c/64/374c6444-94e0-881a-69c0-0509b8150062/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
         url: "https://apps.apple.com/tw/app/accupass-活動通/id516844208",
