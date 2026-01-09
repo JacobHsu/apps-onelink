@@ -11,3 +11,4 @@ dist
 # 測試相關文件
 coverage
 .vitest
+nul
