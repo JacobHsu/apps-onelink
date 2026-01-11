@@ -424,14 +424,14 @@ export const financeData: AppCategory = {
       url: "https://apps.apple.com/tw/app/phantom-crypto-wallet/id1598432977",
     },
     {
-      name: "Trust",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ca/e5/06cae511-ace8-0f86-a3dc-b80f8195b801/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/trust-加密货币-比特币钱包/id1288339409",
-    },
-    {
       name: "MetaMask",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/00/e9/3800e9b6-4ff2-5c92-ab7e-e9fe584e9748/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
       url: "https://apps.apple.com/tw/app/metamask-crypto-wallet/id1438144202",
+    },
+    {
+      name: "Rallies: Your investing friend",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/c6/b6/eac6b6f1-0726-2490-9b92-d7ccb0d3adcc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp",
+      url: "https://apps.apple.com/tw/app/rallies-your-investing-friend/id6745213959",
     },
     {
       name: "World App",
@@ -457,7 +457,7 @@ export const financeData: AppCategory = {
     },
     {
       l: "FastBull",
-      i: "https://img.fastbull.org/static/images/favicon.ico",
+      i: "https://img.fastbull.com/static/images/favicon.ico",
       u: "https://www.fastbull.com/",
     },
   ],
@@ -474,9 +474,9 @@ export const healthData: AppCategory = {
       url: "https://apps.apple.com/tw/app/grow-你的健康貼心好夥伴/id1560604814",
     },
     {
-      name: "Plop",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/bf/25/aabf25e6-266e-8425-9912-c055affd8519/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/plop-便便日記/id1505427265?platform=iphone",
+      name: "viatza",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/b1/a7/55b1a709-03e3-4d66-d468-cec83462635d/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/viatza/id6752721621",
     },
     {
       name: "血壓測量儀",
@@ -489,9 +489,9 @@ export const healthData: AppCategory = {
       url: "https://apps.apple.com/tw/app/血氧-血氧檢測/id6599848551",
     },
     {
-      name: "Easy Chair Workout",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/eb/e7/93ebe7a7-ec76-253a-ca05-71e82fab30d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/easy-chair-workout-for-men/id6740841796",
+      name: "Plop",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/bf/25/aabf25e6-266e-8425-9912-c055affd8519/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
+      url: "https://apps.apple.com/tw/app/plop-便便日記/id1505427265?platform=iphone",
     },
     {
       name: "棒式運動挑戰",
