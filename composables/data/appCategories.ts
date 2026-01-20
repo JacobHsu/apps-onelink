@@ -129,9 +129,9 @@ export const productivityData: AppCategory = {
       url: "https://apps.apple.com/tw/app/habit-tracker-motivated/id6472646551",
     },
     {
-      name: "Gym Tracker",
+      name: "Self Discipline, Habit Tracker",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/61/3d/a8613d17-7d9c-a2ea-87b8-58a0df241163/AppIcon_Checkmark_Rainbow_OnDarkblue_WithGradientAndGlow-0-1x_U007ephone-0-1-0-85-220-0.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/gym-tracker-productivity-app/id1403517519",
+      url: "https://apps.apple.com/tw/app/self-discipline-habit-tracker/id1403517519",
     },
     {
       name: "Supatask",
@@ -154,9 +154,9 @@ export const productivityData: AppCategory = {
       url: "https://apps.apple.com/tw/app/repov-電影-書籍-美食-記錄世界的所有視角/id6502975294",
     },
     {
-      name: "GoalSteps",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/ad/74/b1ad746d-f38b-38f7-a70e-b86046675d5c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/goalsteps-goal-tracker/id6749514026?platform=iphone",
+      name: "Simple Habit Tracker - Habits",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/e9/3f/ede93f3e-e861-3771-00fe-317b8f67b586/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/simple-habit-tracker-habits/id6755734557",
     },
     {
       name: "Horizon",
@@ -544,11 +544,6 @@ export const toolsData: AppCategory = {
   i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
   apps: [
     {
-      name: "Natural Insight",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/b1/3e/1cb13e1f-ac77-99ae-f2e9-b6549d660967/CTAppIconDots-0-1x_U007epad-0-1-85-220-0.png/246x0w.png",
-      url: "https://apps.apple.com/tw/app/natural-insight-calendar/id535887902",
-    },
-    {
       name: "World Clock",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/53/cf/b453cfd4-d713-cc38-2e80-c01ffaf5e79c/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/246x0w.webp",
       url: "https://apps.apple.com/tw/app/world-clock-master-time-zones/id6448859727",
@@ -598,11 +593,16 @@ export const toolsData: AppCategory = {
       logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/37/3b/89373b64-b41e-1eab-eba8-c1762d4c6e22/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/200x200ia-75.webp",
       url: "https://apps.apple.com/tw/app/vpn-pro-fast-secure-proxy/id6523432843",
     },
+      {
+      name: "SMSPool",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/60/e3/2260e3e3-207c-da27-71e2-d6695b926f40/AppIcon-0-1x_U007epad-0-0-85-220-0.png/200x200ia-75.webp",
+      url: "https://apps.apple.com/tw/app/smspool/id6474617801",
+    },
     {
       name: "Swarm by Foursquare",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/96/85/ca968514-04a5-67a0-9cb7-e4c5a7685edb/Placeholder.mill/200x200bb-75.webp",
       url: "https://apps.apple.com/tw/app/swarm-by-foursquare/id870161082",
-    },
+    }
   ],
   ls: [
     {
