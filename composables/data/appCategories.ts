@@ -74,14 +74,14 @@ export const educationData: AppCategory = {
       url: "https://apps.apple.com/tw/app/drops點滴學語言-學習韓語葡萄牙語日語俄語和其他的外語/id939540371",
     },
     {
-      name: "Quizlet",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/1b/81/8a1b81ef-2189-b487-69d3-f87bc4751661/AppIcon-production-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/quizlet-使用單詞卡學習/id546473125",
+      name: "Google 翻譯",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/06/59/25/0659253d-523f-175e-acbf-d143eaa85d59/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/google-翻譯/id414706506",
     },
     {
-      name: "LetMeSpeak",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/8b/6d/b8/8b6db8c7-441c-eaeb-b6c6-6533fa172f2e/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/letmespeak-英文學習遊戲輕鬆背單字/id1478889848?",
+      name: "VoiceTra",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/ed/df/bdeddfc2-abf7-adc8-4e38-1ea29c65ef96/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/200x200ia-75.webp",
+      url: "https://apps.apple.com/tw/app/voicetra/id581137577",
     },
   ],
   ls: [
