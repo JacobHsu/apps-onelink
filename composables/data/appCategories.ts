@@ -424,9 +424,9 @@ export const financeData: AppCategory = {
       url: "https://apps.apple.com/tw/app/phantom-crypto-wallet/id1598432977",
     },
     {
-      name: "MetaMask",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/00/e9/3800e9b6-4ff2-5c92-ab7e-e9fe584e9748/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp",
-      url: "https://apps.apple.com/tw/app/metamask-crypto-wallet/id1438144202",
+      name: "OneKey",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/21/30/492130d0-7513-ac75-4804-a02084dfe8b0/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/onekey-安全存放及交易加密資產的钱包/id1609559473",
     },
     {
       name: "Rallies: Your investing friend",
