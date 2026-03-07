@@ -617,7 +617,7 @@ export const toolsData: AppCategory = {
     },
     {
       l: "SMSPool",
-      i: "https://www.smspool.net/favicon.ico",
+      i: "https://play-lh.googleusercontent.com/9jIG2C-4nX5YcutNumz3HOAgNuRAdFGJgcHzgX-lcP7iO6BbgAnHjq2dksWkpYr_GA=w240-h480-rw",
       u: "https://www.smspool.net/",
     },
   ],
