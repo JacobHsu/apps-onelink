@@ -594,9 +594,9 @@ export const toolsData: AppCategory = {
       url: "https://apps.apple.com/tw/app/vpn-pro-fast-secure-proxy/id6523432843",
     },
       {
-      name: "SMSPool",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/60/e3/2260e3e3-207c-da27-71e2-d6695b926f40/AppIcon-0-1x_U007epad-0-0-85-220-0.png/200x200ia-75.webp",
-      url: "https://apps.apple.com/tw/app/smspool/id6474617801",
+      name: "Bus+",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/5e/57/e05e57c8-736a-48b1-c742-2d10b50f937e/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/bus-公車動態-ubike-臺鐵查詢/id967861325",
     },
     {
       name: "Swarm by Foursquare",
@@ -614,6 +614,11 @@ export const toolsData: AppCategory = {
       l: "Typhoon tw",
       i: "https://typhoon.tw/static/img/titlelogo.ico",
       u: "https://typhoon.tw/",
+    },
+    {
+      l: "SMSPool",
+      i: "https://www.smspool.net/favicon.ico",
+      u: "https://www.smspool.net/",
     },
   ],
 };
