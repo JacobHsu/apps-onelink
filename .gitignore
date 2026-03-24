@@ -13,3 +13,4 @@ coverage
 .vitest
 nul
 .gstack/
+docs

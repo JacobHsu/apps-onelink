@@ -1,4 +1,7 @@
 export default ({
+    app: {
+        baseURL: process.env.BASE_URL ?? '/',
+    },
     modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@vueuse/nuxt'],
     build: {
         transpile: ["@headlessui/vue"],
