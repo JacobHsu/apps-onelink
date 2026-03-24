@@ -14,7 +14,7 @@
       class="list-group"
       ghost-class="ghost"
     >
-      <template #item="{ element: link }">
+      <template #item="{ element: link, index }">
         <div class="relative mb-6 group">
           <button class="absolute top-2 -left-8">
             <icon
@@ -33,28 +33,28 @@
               <div class="grid grid-cols-2 gap-4">
                 <div>
                   <label
-                    for="label"
+                    :for="`link-label-${index}`"
                     class="block text-sm font-medium text-gray-700"
                     >Label</label
                   >
                   <input
                     type="text"
-                    name="label"
-                    id="label"
+                    :name="`link-label-${index}`"
+                    :id="`link-label-${index}`"
                     v-model="link.l"
                     class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
                 </div>
                 <div>
                   <label
-                    for="url"
+                    :for="`link-url-${index}`"
                     class="block text-sm font-medium text-gray-700"
                     >URL</label
                   >
                   <input
                     type="url"
-                    name="url"
-                    id="url"
+                    :name="`link-url-${index}`"
+                    :id="`link-url-${index}`"
                     v-model="link.u"
                     class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
