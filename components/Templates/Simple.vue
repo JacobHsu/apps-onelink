@@ -7,7 +7,7 @@
             v-if="acc.i"
             class="w-20 h-20 mx-auto overflow-hidden rounded-full ring ring-slate-200"
           >
-            <img :src="acc.i" alt="name" class="object-cover w-full h-full" />
+            <img :src="acc.i" :alt="acc.n" class="object-cover w-full h-full" />
           </div>
           <h1 v-if="acc.n" class="mt-4 text-2xl font-bold text-slate-800">
             {{ acc.n }}
@@ -21,8 +21,8 @@
           class="flex flex-wrap items-center justify-center"
         >
           <span v-for="(link, index) in socialLinks" :key="index" class="p-1">
-            <a :href="link.url" target="_blank" rel="noopener noreferrer">
-              <img :src="link.img" alt="name" class="w-16 h-16 rounded-lg" />
+            <a :href="link.url" :aria-label="link.name" target="_blank" rel="noopener noreferrer">
+              <img :src="link.img" :alt="link.name" class="w-16 h-16 rounded-lg" />
             </a>
           </span>
           <span v-if="acc.gh" class="p-1">
@@ -40,7 +40,7 @@
                 <div
                   class="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg text-slate-500"
                 >
-                  <img v-if="link.i" :src="link.i" alt="icon" class="w-5 h-5" />
+                  <img v-if="link.i" :src="link.i" :alt="link.l" class="w-5 h-5" />
                   <icon v-else name="ph:link-simple" class="w-5 h-5" />
                 </div>
                 <div class="flex-grow w-full min-w-0">
@@ -71,6 +71,7 @@ const props = defineProps({
 
 const socialLinks = computed(() => {
   return (props.acc.apps || []).map(app => ({
+    name: app.name,
     url: app.url,
     img: app.logo
   })).filter(link => link.url);
