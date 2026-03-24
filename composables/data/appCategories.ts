@@ -446,9 +446,9 @@ export const financeData: AppCategory = {
       u: "https://www.aicoin.com/",
     },
     {
-      l: "PlayToEarn",
-      i: "https://playtoearn.com/favicon-16x16.png",
-      u: "https://playtoearn.com/",
+      l: "Polymarket",
+      i: "https://polymarket.com/icons/favicon-16x16.png",
+      u: "https://polymarket.com/zh",
     },
     {
       l: "DappRadar",
@@ -647,6 +647,26 @@ export const tvData: AppCategory = {
       name: "Apple TV",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/38/04/1d380449-215e-f6e2-0ba4-68538c2be4d0/Placeholder.mill/200x200bb-75.webp",
       url: "https://apps.apple.com/tw/app/apple-tv/id1174078549",
+    },
+    {
+      name: "YouTube",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/d7/ba/e3d7ba04-9b81-20d3-6f3a-b652fa4fe3ec/Placeholder.mill/200x200bb-75.jpg",
+      url: "https://apps.apple.com/tw/app/youtube/id544007664",
+    },
+    {
+      name: "YouTube Music",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/01/79/a0017981-5322-368c-0ff8-444ead0b44f6/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/youtube-music/id1017492454",
+    },
+    {
+      name: "Apple Music",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/3d/a2/213da246-a5db-70a1-9d44-1a033aa51a33/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/apple-music/id1108187390",
+    },
+    {
+      name: "Spotify",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/5e/4d/555e4d9f-ecdc-8215-89f8-aca4154448b7/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/spotify-音樂和-podcast/id324684580",
     },
   ],
   ls: [
