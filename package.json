@@ -30,5 +30,14 @@
     "@headlessui/vue": "^1.7.16",
     "js-base64": "^3.7.5",
     "vuedraggable": "^4.1.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "vue": "3.5.25",
+      "@vue/runtime-core": "3.5.25",
+      "@vue/runtime-dom": "3.5.25",
+      "@vue/reactivity": "3.5.25",
+      "@vue/shared": "3.5.25"
+    }
   }
 }
