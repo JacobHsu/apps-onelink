@@ -41,6 +41,6 @@
   </base-form-section>
 </template>
 <script setup>
-const props = defineProps(["name", "desc", "image"]);
-const emit = defineEmits(["update:name", "update:desc"]);
+defineProps(["name", "desc"]);
+defineEmits(["update:name", "update:desc"]);
 </script>

@@ -11,6 +11,9 @@ dist
 # 測試相關文件
 coverage
 .vitest
+
+# Lighthouse 報告
+.unlighthouse
 nul
 .gstack/
 docs
