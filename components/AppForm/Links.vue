@@ -16,7 +16,7 @@
     >
       <template #item="{ element: link, index }">
         <div class="relative mb-6 group">
-          <button class="absolute top-2 -left-8">
+          <button class="absolute top-2 -left-8" aria-label="拖曳排序">
             <icon
               name="radix-icons:drag-handle-dots-2"
               class="w-6 h-6 text-slate-500 drag-handle"
@@ -24,6 +24,7 @@
           </button>
           <button
             @click="removeLink(link)"
+            aria-label="刪除連結"
             class="absolute items-center justify-center hidden w-6 h-6 rounded-full group-hover:flex bg-slate-300 text-slate-600 -right-3 -top-3"
           >
             <icon name="fluent:dismiss-24-regular" class="w-4 h-4" />

@@ -10,7 +10,7 @@
             <span
               class="inline-flex items-center px-3 text-sm text-gray-500 border border-r-0 border-gray-300 rounded-l-md bg-gray-50"
             >
-              <img :src="app.logo" class="w-5 h-5 rounded-full" v-if="app.logo" />
+              <img :src="app.logo" :alt="app.name" class="w-5 h-5 rounded-full" v-if="app.logo" />
               <icon name="ph:app-store-logo-fill" class="w-5 h-5" v-else />
             </span>
             <input
