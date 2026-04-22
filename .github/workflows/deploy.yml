@@ -51,7 +51,7 @@ jobs:
       - name: Build Slidev
         run: |
           cd slidev
-          pnpm run build -- --base /apps-onelink/slides/
+          pnpm run build
 
       # --- 合併輸出 ---
       - name: Merge into one output
