@@ -40,6 +40,8 @@ background: '#ffffff'
 - `拖放排序`：自訂卡片順序與顯示數量，快速排版各場景。
 - `社群連結`：預設常用平台，維持品牌曝光一致性。
 
+**8 大應用場景模板：** AI · Language · Habit · Information · Crypto · Fitness · TV · Tools
+
 ![AI 模板預覽](https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80){class="w-2/3 mt-8 rounded-xl shadow-lg"}
 
 ---
@@ -78,14 +80,14 @@ background: '#ffffff'
     <p class="text-xs">Office 協作程式生成</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/7f/2a/eb7f2ab0-d4d9-e2f3-a0bc-dbdb9cde47a6/AppIcon18-0-1x_U007epad-0-1-0-85-220-0.jpeg/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Aido</div>
-    <p class="text-xs">手機即問即答</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/cf/05/4acf05b8-a96f-514d-c266-1ef7ab156e15/logo_notebooklm_color-0-1x_U007emarketing-0-0-0-7-0-0-0-0-85-220-0.png/400x400ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Google NotebookLM</div>
+    <p class="text-xs">AI 筆記深度分析</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8e/6e/8c8e6e9d-cfd9-43ca-9d7b-293e03400b62/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">BrainDeck</div>
-    <p class="text-xs">間隔複習知識庫</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/91/b4/8b91b4b4-aef5-42bc-d7c1-c933f14da6ed/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">DeepSeek</div>
+    <p class="text-xs">開源 AI 智能助手</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/bc/0b/e1bc0b4a-db94-8d09-480b-23134a514d9e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
@@ -103,9 +105,9 @@ background: '#ffffff'
     <p class="text-xs">AI 搜尋來源引用</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/9e/67/b69e6752-57a7-7f27-595c-7787319e91d8/AppIcon_Poe-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Poe</div>
-    <p class="text-xs">快速 AI 聊天平台</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/77/61/f4776139-8c9e-6b71-832e-de5d98598dc0/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">ChatOn</div>
+    <p class="text-xs">AI Chatbot 助手</p>
   </div>
 </div>
 
@@ -207,8 +209,8 @@ background: '#ffffff'
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/61/3d/a8613d17-7d9c-a2ea-87b8-58a0df241163/AppIcon_Checkmark_Rainbow_OnDarkblue_WithGradientAndGlow-0-1x_U007ephone-0-1-0-85-220-0.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Gym Tracker</div>
-    <p class="text-xs">健身生產力應用</p>
+    <div class="text-xs font-semibold">Self Discipline</div>
+    <p class="text-xs">習慣打卡自律訓練</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/72/db/ef72db03-bc5c-e530-803c-d87ba68c712d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
@@ -231,19 +233,19 @@ background: '#ffffff'
     <p class="text-xs">電影書籍美食記錄</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/40/36/7f403677-b537-3581-0003-7cfe9c9a02d0/AppIconProd-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Notion</div>
-    <p class="text-xs">筆記任務 AI 工作空間</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/e9/3f/ede93f3e-e861-3771-00fe-317b8f67b586/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Simple Habit Tracker</div>
+    <p class="text-xs">簡單習慣追蹤</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/e6/c5/36e6c50d-2d70-2e2a-395a-b0b62df51bf2/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">To Do List</div>
-    <p class="text-xs">任務管理器</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/98/1a/74981a00-0b6d-1530-f808-14ba07614bd8/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Horizon</div>
+    <p class="text-xs">習慣追蹤日曆視圖</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6d/de/5c/6dde5c01-4d47-cefc-316a-4e28c68e8a9a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Haptive</div>
-    <p class="text-xs">停止拖延症</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/0c/55/000c552a-831b-de77-9d7f-759f560343db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Blissful</div>
+    <p class="text-xs">日記情緒追蹤</p>
   </div>
 </div>
 
@@ -295,9 +297,9 @@ background: '#ffffff'
     <p class="text-xs">AI Podcast 播放器</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/b5/c5/88b5c5f9-083c-a57f-8012-5b8d3b4b9706/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Todaii English</div>
-    <p class="text-xs">學英文更快更好</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/a4/4b/a6a44ba1-55bc-e864-93b2-9ce9c3e87c21/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">ListenLeap</div>
+    <p class="text-xs">幫你聽懂英文 Podcast</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/14/5f/e7145f9c-8030-908e-b409-936543280f0f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
@@ -369,14 +371,14 @@ background: '#ffffff'
     <p class="text-xs">加密貨幣錢包</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ca/e5/06cae511-ace8-0f86-a3dc-b80f8195b801/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Trust Wallet</div>
-    <p class="text-xs">加密貨幣比特幣錢包</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/21/30/492130d0-7513-ac75-4804-a02084dfe8b0/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">OneKey</div>
+    <p class="text-xs">安全加密資產錢包</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/00/e9/3800e9b6-4ff2-5c92-ab7e-e9fe584e9748/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">MetaMask</div>
-    <p class="text-xs">加密貨幣錢包</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/c6/b6/eac6b6f1-0726-2490-9b92-d7ccb0d3adcc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Rallies</div>
+    <p class="text-xs">投資組合追蹤</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/33/2b/a4332b65-9bbf-38dd-24fd-439a9026c568/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
@@ -398,9 +400,9 @@ background: '#ffffff'
     <p class="text-xs">健康貼心好夥伴</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/bf/25/aabf25e6-266e-8425-9912-c055affd8519/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Plop</div>
-    <p class="text-xs">便便日記健康追蹤</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/b1/a7/55b1a709-03e3-4d66-d468-cec83462635d/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">viatza</div>
+    <p class="text-xs">健康追蹤應用</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/01/59/b10159ec-18a0-a26c-0844-ee7232e985e8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
@@ -408,19 +410,19 @@ background: '#ffffff'
     <p class="text-xs">心率檢測心臟健康</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/6c/fc/cd6cfc9f-b98c-2af8-47c7-14307561b5b8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Breathing</div>
-    <p class="text-xs">呼吸冥想正念練習</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/89/e2/3189e219-0462-30cd-8c68-6f166b9e7c05/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">血氧</div>
+    <p class="text-xs">血氧檢測監測</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/eb/e7/93ebe7a7-ec76-253a-ca05-71e82fab30d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Easy Chair</div>
-    <p class="text-xs">椅子運動訓練</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/bf/25/aabf25e6-266e-8425-9912-c055affd8519/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Plop</div>
+    <p class="text-xs">便便日記健康追蹤</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/12/46/25124632-d7aa-5761-5757-549a5e322101/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.png" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">超慢跑計時器</div>
-    <p class="text-xs">慢跑節奏控制</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/c3/c2/97c3c2bc-cb5e-7561-d87a-3053e6f6af1e/AppIcon-0-0-1x_U007emarketing-0-0-0-3-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/246x0w.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">棒式運動挑戰</div>
+    <p class="text-xs">核心肌群訓練</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/80/61/978061c0-bb05-fe92-befc-5dde2b6e8cf0/AppIcon-0-0-1x_U007epad-0-1-0-0-P3-GLES2_U002c0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
@@ -428,9 +430,9 @@ background: '#ffffff'
     <p class="text-xs">7分鐘高強度間歇訓練</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/fe/84/d2fe848a-ca49-de17-01fe-3b9b246c2165/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">CalmMind</div>
-    <p class="text-xs">放鬆呼吸冥想</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/12/46/25124632-d7aa-5761-5757-549a5e322101/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.png" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">超慢跑計時器</div>
+    <p class="text-xs">慢跑節奏控制</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
     <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/ba/b6/3bbab6ce-f9dc-530d-0792-b2750e47ef8e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
@@ -443,18 +445,136 @@ background: '#ffffff'
     <p class="text-xs">腦力遊戲Simbo</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/9f/0c/719f0c45-f889-bbd2-e8c3-05f9495c4236/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Hypertrophy</div>
-    <p class="text-xs">肌肥大訓練日誌</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0a/c7/b2/0ac7b266-9ca1-ac0d-653b-ab81f4b5621d/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Calzeno</div>
+    <p class="text-xs">AI 卡路里計算器</p>
   </div>
   <div class="bg-white/70 p-3 rounded-xl shadow-lg">
-    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/40/be/8840be40-4884-5e33-a507-c3ad4f5e0fa0/AppIcon_1-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
-    <div class="text-xs font-semibold">Gym Workout</div>
-    <p class="text-xs">健身房訓練計劃</p>
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/3f/5d/aa3f5d5a-00ce-acf4-b5cf-cc38f0e13d82/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">YouBike微笑單車</div>
+    <p class="text-xs">共享單車租借查詢</p>
   </div>
 </div>
 
-**健康管理：** 身心並重，從體能訓練到心理健康，打造全面的健康管理系統。
+**健康管理：** 身心並重，從體能訓練到健康監測，打造全面的健康管理系統。
+
+---
+
+## 影音娛樂 - TV & Entertainment
+
+<div class="grid grid-cols-4 gap-3 text-xs text-left">
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/b8/45/b2b845ba-155b-c175-ce43-740bc7f28cb2/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Netflix</div>
+    <p class="text-xs">串流影音平台</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/d4/e5/c7d4e536-33cc-1e2c-833e-d2772c5d2d5f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Disney+</div>
+    <p class="text-xs">Disney 原創影視</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/ed/2c/23ed2c0b-47f7-2245-f61b-6ee019035245/AppIcon-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">HBO Max</div>
+    <p class="text-xs">頂級影集電影</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/38/04/1d380449-215e-f6e2-0ba4-68538c2be4d0/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Apple TV</div>
+    <p class="text-xs">Apple 原創內容</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/d7/ba/e3d7ba04-9b81-20d3-6f3a-b652fa4fe3ec/Placeholder.mill/200x200bb-75.jpg" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">YouTube</div>
+    <p class="text-xs">全球最大影片平台</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a0/01/79/a0017981-5322-368c-0ff8-444ead0b44f6/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">YouTube Music</div>
+    <p class="text-xs">YouTube 音樂串流</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/3d/a2/213da246-a5db-70a1-9d44-1a033aa51a33/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Apple Music</div>
+    <p class="text-xs">Apple 音樂串流</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/5e/4d/555e4d9f-ecdc-8215-89f8-aca4154448b7/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Spotify</div>
+    <p class="text-xs">音樂 Podcast 串流</p>
+  </div>
+</div>
+
+**娛樂生態：** 影視串流到音樂平台，網站配合 trakt.tv / JustWatch / IMDb 完整追劇體驗。
+
+---
+
+## 實用工具 - Tools & Utilities
+
+<div class="grid grid-cols-4 gap-3 text-xs text-left">
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/53/cf/b453cfd4-d713-cc38-2e80-c01ffaf5e79c/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">World Clock</div>
+    <p class="text-xs">全球時區查詢</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/c8/db/43c8db26-7f3f-11f3-3762-d7f73e77ac41/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/246x0w.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Bobby</div>
+    <p class="text-xs">訂閱費用追蹤管理</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/c7/5f/7bc75f90-8cdd-140b-c9a7-c81a55576682/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.png" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Subscription Cancel</div>
+    <p class="text-xs">取消訂閱小幫手</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/16/35/ab1635eb-1b5f-ef1b-97b3-efa85845d33e/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">發票載具</div>
+    <p class="text-xs">統一發票對獎雲端</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/42/6a/e9426ae3-7b8a-d805-0be2-9b394603a99d/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Radddio</div>
+    <p class="text-xs">線上收音機 FM 電台</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/49/2a/93492acb-32c8-6c30-c84d-6a1e3e593de3/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Whoscall 象卡來</div>
+    <p class="text-xs">來電辨識封鎖詐騙</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/35/11/5235113d-d33a-04fd-8306-799149db1d47/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Send Anywhere</div>
+    <p class="text-xs">跨裝置檔案傳輸</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/4c/64/374c6444-94e0-881a-69c0-0509b8150062/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">ACCUPASS 活動通</div>
+    <p class="text-xs">台灣活動票務平台</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/5e/57/e05e57c8-736a-48b1-c742-2d10b50f937e/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Bus+</div>
+    <p class="text-xs">公車動態 UBike 臺鐵</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/d7/07/3bd70742-da8e-d682-568c-89ab6071aa6d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">發票怪獸</div>
+    <p class="text-xs">發票對獎管理</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/37/3b/89373b64-b41e-1eab-eba8-c1762d4c6e22/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/200x200ia-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">VPN Pro</div>
+    <p class="text-xs">快速安全代理</p>
+  </div>
+  <div class="bg-white/70 p-3 rounded-xl shadow-lg">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/96/85/ca968514-04a5-67a0-9cb7-e4c5a7685edb/Placeholder.mill/200x200bb-75.webp" class="w-8 h-8 rounded mb-1" />
+    <div class="text-xs font-semibold">Swarm</div>
+    <p class="text-xs">Foursquare 打卡</p>
+  </div>
+</div>
+
+**工具生態：** 台灣本土化工具為主，涵蓋交通、發票、訂閱管理等日常生活場景。
 
 ---
 
@@ -472,29 +592,29 @@ background: '#ffffff'
       <div class="flex items-start">
         <span class="text-blue-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-blue-800">Nuxt.js</span>
-          <div class="text-gray-700 text-xs">全棧框架，SSR/SPA 混合渲染</div>
+          <span class="font-semibold text-blue-800">Nuxt 3</span>
+          <div class="text-gray-700 text-xs">靜態生成 (nuxt generate)，部署至 GitHub Pages</div>
         </div>
       </div>
       <div class="flex items-start">
         <span class="text-blue-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-blue-800">TailwindCSS</span>
-          <div class="text-gray-700 text-xs">原子化 CSS，快速響應式設計</div>
+          <span class="font-semibold text-blue-800">TailwindCSS + @nuxt/icon</span>
+          <div class="text-gray-700 text-xs">原子化 CSS，按需載入 icon 減少 bundle 體積</div>
         </div>
       </div>
       <div class="flex items-start">
         <span class="text-blue-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-blue-800">動態數據綁定</span>
-          <div class="text-gray-700 text-xs">實時預覽與配置同步</div>
+          <span class="font-semibold text-blue-800">vuedraggable + @vueuse/nuxt</span>
+          <div class="text-gray-700 text-xs">拖放排序與 Vue 組合式工具集</div>
         </div>
       </div>
       <div class="flex items-start">
         <span class="text-blue-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-blue-800">模塊化組件</span>
-          <div class="text-gray-700 text-xs">可復用的應用卡片系統</div>
+          <span class="font-semibold text-blue-800">Vitest 測試覆蓋</span>
+          <div class="text-gray-700 text-xs">組件單元測試 + useAppData 測試套件</div>
         </div>
       </div>
     </div>
@@ -511,29 +631,29 @@ background: '#ffffff'
       <div class="flex items-start">
         <span class="text-purple-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-purple-800">一鍵部署</span>
-          <div class="text-gray-700 text-xs">支援 GitHub Pages/Vercel</div>
+          <span class="font-semibold text-purple-800">GitHub Pages 自動部署</span>
+          <div class="text-gray-700 text-xs">CI/CD 工作流程，push 即自動發布</div>
         </div>
       </div>
       <div class="flex items-start">
         <span class="text-purple-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-purple-800">多場景適配</span>
-          <div class="text-gray-700 text-xs">面試/展示/個人使用</div>
+          <span class="font-semibold text-purple-800">8 大場景模板</span>
+          <div class="text-gray-700 text-xs">AI / Language / Habit / Info / Crypto / Fitness / TV / Tools</div>
         </div>
       </div>
       <div class="flex items-start">
         <span class="text-purple-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-purple-800">品牌一致性</span>
-          <div class="text-gray-700 text-xs">統一的視覺與交互體驗</div>
+          <span class="font-semibold text-purple-800">現代瀏覽器優化</span>
+          <div class="text-gray-700 text-xs">browserslist 精準鎖定，移除 legacy polyfills</div>
         </div>
       </div>
       <div class="flex items-start">
         <span class="text-purple-600 font-bold mr-2">•</span>
         <div>
-          <span class="font-semibold text-purple-800">數據驅動</span>
-          <div class="text-gray-700 text-xs">結構化應用信息管理</div>
+          <span class="font-semibold text-purple-800">GSC + 無障礙設計</span>
+          <div class="text-gray-700 text-xs">Google Search Console 已驗證，alt/aria-label 完整</div>
         </div>
       </div>
     </div>
@@ -589,10 +709,10 @@ background: '#ffffff'
   <p class="text-xl mb-8 max-w-2xl">打造智能應用生態系統的第一步</p>
 
   <div class="flex space-x-6 text-sm">
-    <a href="https://github.com/username/apps-onelink" class="bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition">
+    <a href="https://github.com/JacobHsu/apps-onelink" class="bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition">
       GitHub Repository
     </a>
-    <a href="https://apps-onelink.vercel.app" class="border-2 border-black px-6 py-3 rounded-xl hover:bg-black hover:text-white transition">
+    <a href="https://jacobhsu.github.io/apps-onelink/" class="border-2 border-black px-6 py-3 rounded-xl hover:bg-black hover:text-white transition">
       Live Demo
     </a>
   </div>

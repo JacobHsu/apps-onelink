@@ -1,70 +1,87 @@
-# Onelink - App 整理工具
+# Onelink — App 整理工具
 
-## 什麼是 Onelink？
+> 將常用 App 與網站連結整理成一頁式分享頁，掃碼即達，免註冊。
 
-Onelink 是一個簡單易用的 app 整理和管理平台，讓你可以將所有常用的應用程式和網站連結整理在一個頁面中，方便分享給朋友或在不同裝置間使用。
+![Screenshot](https://github.com/user-attachments/assets/e879eae9-7fcc-4a45-afc1-6cba67df0ec7)
 
-![Screenshot](https://github.com/user-attachments/assets/e879eae9-7fcc-4a45-afc1-6cba67df0ec7)  
+[![Deploy](https://github.com/JacobHsu/apps-onelink/actions/workflows/deploy.yml/badge.svg)](https://github.com/JacobHsu/apps-onelink/actions/workflows/deploy.yml)
+[![Tests](https://github.com/JacobHsu/apps-onelink/actions/workflows/test.yml/badge.svg)](https://github.com/JacobHsu/apps-onelink/actions/workflows/test.yml)
 
-[Website](https://jacobhsu.github.io/apps-onelink/)  
-[Presentation](https://jacobhsu.github.io/apps-onelink/slides/)  
+[Website](https://jacobhsu.github.io/apps-onelink/) ·
+[Slidev](https://jacobhsu.github.io/apps-onelink/slides/)
 
-## 主要功能
+---
 
-- 📱 **App 集中管理**：將你喜愛的應用程式連結整理在同一個地方
-- 💾 **免註冊使用**：所有資料都保存在連結中，無需建立帳號
-- 📲 **跨平台支援**：在手機、平板、電腦上都能完美使用
+## 功能特色
 
-## 適合什麼人使用？
+| 功能 | 說明 |
+|------|------|
+| 即時預覽 | 表單調整同步呈現在手機預覽區 |
+| 拖放排序 | 自訂 App 卡片順序與顯示數量 |
+| 8 大場景模板 | AI · Language · Habit · Information · Crypto · Fitness · TV · Tools |
+| 社群連結 | 預設常用平台圖示，維持品牌一致性 |
+| 免註冊 | 所有資料保存在 URL 中，無需帳號 |
 
-- 想要整理手機 app 的使用者
-- 需要分享多個連結給朋友的人
-- 社群媒體創作者
-- 想要建立個人連結頁面的任何人
+## 技術架構
 
-# vercel
+- **[Nuxt 3](https://nuxt.com/)** — 靜態生成 (`nuxt generate`)，部署至 GitHub Pages
+- **[TailwindCSS](https://tailwindcss.com/)** — 原子化 CSS
+- **[@nuxt/icon](https://github.com/nuxt/icon)** — 按需載入 icon，減少 bundle 體積
+- **[vuedraggable](https://github.com/SortableJS/vue.draggable.next)** — App 卡片拖放排序
+- **[@vueuse/nuxt](https://vueuse.org/)** — Vue 組合式工具集
+- **[Vitest](https://vitest.dev/)** — 組件單元測試 + composable 測試
 
-[Setting the Node.js version in project settings](https://vercel.com/jacob-hsus-projects/apps-onelink/settings) `Node.js Version`
+## 本地開發
+
+確認已安裝 [pnpm](https://pnpm.io/)：
+
+```bash
+pnpm install
+```
+
+啟動開發伺服器（預設 http://localhost:3000）：
+
+```bash
+pnpm dev
+```
+
+執行測試：
+
+```bash
+pnpm test          # 監看模式
+pnpm test:run      # 單次執行
+pnpm test:coverage # 覆蓋率報告
+```
+
+## 靜態部署
+
+產生靜態檔案：
+
+```bash
+BASE_URL=/apps-onelink/ pnpm generate
+```
+
+本地預覽：
+
+```bash
+pnpm preview
+```
+
+推送至 `main` 分支後，GitHub Actions 自動建置並部署至 GitHub Pages。
+
+## Slidev 簡報
+
+投影片原始碼位於 [`slidev/`](./slidev/) 目錄：
+
+```bash
+cd slidev
+pnpm install
+pnpm dev     # http://localhost:3030
+pnpm build   # 輸出至 slidev/dist/
+```
 
 ## References
 
-[iconify](https://icon-sets.iconify.design/ph/)
-
-## Setup locally
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+- [Nuxt 3 Docs](https://nuxt.com/docs)
+- [Iconify — ph icon set](https://icon-sets.iconify.design/ph/)
+- [Slidev Docs](https://sli.dev/)
