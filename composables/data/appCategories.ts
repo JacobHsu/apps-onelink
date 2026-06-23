@@ -182,8 +182,8 @@ export const productivityData: AppCategory = {
     },
     {
       l: "Trello",
-      i: "https://bxp-content-static.prod.public.atl-paas.net/img/favicon.ico",
-      u: "https://trello.com/zh-Hant",
+      i: "https://trello.com/assets/7ee822c0999cb6aa3322.png",
+      u: "https://trello.com/",
     },
     {
       l: "Workflowy",
@@ -244,9 +244,9 @@ export const newsData: AppCategory = {
       url: "https://apps.apple.com/tw/app/discord-聊天-玩遊戲-消磨時間/id985746746",
     },
     {
-      name: "ListenLeap",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/a4/4b/a6a44ba1-55bc-e864-93b2-9ce9c3e87c21/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
-      url: "https://apps.apple.com/tw/app/listenleap-幫你聽懂英文podcast-輕鬆學英文/id6642688167",
+      name: "Skool Communities",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5f/1e/a3/5f1ea3b1-684f-2925-19ca-323ea67f2b07/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/skool-communities/id6447270545",
     },
     {
       name: "Slack",
@@ -429,9 +429,9 @@ export const financeData: AppCategory = {
       url: "https://apps.apple.com/tw/app/onekey-安全存放及交易加密資產的钱包/id1609559473",
     },
     {
-      name: "Rallies: Your investing friend",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/c6/b6/eac6b6f1-0726-2490-9b92-d7ccb0d3adcc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp",
-      url: "https://apps.apple.com/tw/app/rallies-your-investing-friend/id6745213959",
+      name: "MEXC",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/b0/39/c4b0390a-940d-f1d2-039c-85fa06042490/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/mexc-購買比特幣-加密貨幣交易平臺/id1605393003",
     },
     {
       name: "World App",
@@ -446,14 +446,14 @@ export const financeData: AppCategory = {
       u: "https://www.aicoin.com/",
     },
     {
-      l: "Polymarket",
-      i: "https://polymarket.com/icons/favicon-16x16.png",
-      u: "https://polymarket.com/zh",
+      l: "Predict Fun",
+      i: "https://predict.fun/favicon.ico?favicon.0xht.k56wdd~9.ico",
+      u: "https://predict.fun/",
     },
     {
-      l: "DappRadar",
-      i: "https://static.dappradar.com/website-fe-pr/public-assets/favicon-16x16.png",
-      u: "https://dappradar.com/",
+      l: "Foregate",
+      i: "https://www.foregate.com/favicon.ico",
+      u: "https://www.foregate.com/",
     },
     {
       l: "FastBull",
@@ -534,6 +534,16 @@ export const healthData: AppCategory = {
       l: "Common health",
       i: "https://web.commonhealth.com.tw/online-source/commonhealth/favicon.ico",
       u: "https://www.commonhealth.com.tw/",
+    },
+    {
+      l: "早安健康",
+      i: "https://edh.tw/favicon.ico",
+      u: "https://edh.tw/",
+    },
+    {
+      l: "健行筆記",
+      i: "https://hiking.biji.co/favicon-32x32.png",
+      u: "https://hiking.biji.co/",
     },
   ],
 };
@@ -667,6 +677,26 @@ export const tvData: AppCategory = {
       name: "Spotify",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/5e/4d/555e4d9f-ecdc-8215-89f8-aca4154448b7/Placeholder.mill/200x200bb-75.webp",
       url: "https://apps.apple.com/tw/app/spotify-音樂和-podcast/id324684580",
+    },
+    {
+      name: "Apple Sports",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/ce/5c/68ce5c0c-debf-62e9-ff76-640deb839533/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/apple-sports/id6446788829",
+    },
+    {
+      name: "AiScore - Live Sports Scores",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/5e/ca/1d5eca62-f6fb-b4a5-353e-be9b4d5f42e3/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/aiscore-live-sports-scores/id1477171291",
+    },
+    {
+      name: "愛爾達電視 ELTA.tv",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/e4/62/62e462e8-9556-fe03-f31f-07597205ea38/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/愛爾達電視-elta-tv/id6755280720",
+    },
+    {
+      name: "Hami Video",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/14/5c/5b145ca8-5d5d-ffc9-5f73-3a6b71df2212/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/hami-video/id879383077",
     },
   ],
   ls: [
