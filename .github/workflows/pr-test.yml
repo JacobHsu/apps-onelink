@@ -29,7 +29,7 @@ jobs:
       - name: 🟢 設置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'  # 升級到 Node.js 20 以支援 @vitest/coverage-v8
+          node-version: '22'  # pnpm 11 需要 Node.js >= 22.13
           cache: 'pnpm'
 
       - name: 📚 安裝依賴
