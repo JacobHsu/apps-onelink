@@ -13,7 +13,6 @@ on:
 # 定義環境變數
 env:
   NODE_VERSION: '22'  # pnpm 11 需要 Node.js >= 22.13
-  PNPM_VERSION: '10'
 
 jobs:
   # 第一個 Job：運行測試
@@ -29,8 +28,6 @@ jobs:
       # 步驟 2: 設置 pnpm
       - name: 📦 安裝 pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: ${{ env.PNPM_VERSION }}
 
       # 步驟 3: 設置 Node.js
       - name: 🟢 設置 Node.js
@@ -81,8 +78,6 @@ jobs:
 
       - name: 📦 安裝 pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: ${{ env.PNPM_VERSION }}
 
       - name: 🟢 設置 Node.js
         uses: actions/setup-node@v4
@@ -108,8 +103,6 @@ jobs:
 
       - name: 📦 安裝 pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: ${{ env.PNPM_VERSION }}
 
       - name: 🟢 設置 Node.js
         uses: actions/setup-node@v4
