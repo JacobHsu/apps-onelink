@@ -176,9 +176,9 @@ export const productivityData: AppCategory = {
       u: "https://www.notion.com/zh-tw",
     },
     {
-      l: "Airtable",
-      i: "https://www.airtable.com/favicon.ico",
-      u: "https://www.airtable.com/",
+      l: "SugarOKR",
+      i: "https://www.sugarokr.com/favicon.ico",
+      u: "https://www.sugarokr.com/",
     },
     {
       l: "Trello",

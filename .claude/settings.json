@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm -v)",
+      "Bash(npm config *)",
+      "Bash(npm install *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001/ --max-time 3)",
+      "PowerShell($env:Path += \";$env:APPDATA\\\\npm\"; pnpm -v)"
+    ]
+  }
+}
