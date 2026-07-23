@@ -2,7 +2,7 @@
   <Suspense>
     <template #default>
       <main class="w-full h-full max-w-lg p-4 pt-12 mx-auto space-y-8 bg-white">
-        <div class="text-center">
+        <div class="text-center min-h-[156px]">
           <div
             v-if="acc.i"
             class="w-20 h-20 mx-auto overflow-hidden rounded-full ring ring-slate-200"
