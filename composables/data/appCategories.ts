@@ -604,9 +604,9 @@ export const toolsData: AppCategory = {
       url: "https://apps.apple.com/tw/app/vpn-pro-fast-secure-proxy/id6523432843",
     },
       {
-      name: "Bus+",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/5e/57/e05e57c8-736a-48b1-c742-2d10b50f937e/Placeholder.mill/200x200bb-75.webp",
-      url: "https://apps.apple.com/tw/app/bus-公車動態-ubike-臺鐵查詢/id967861325",
+      name: "Ad Blocker Pro: Safari & DNS",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/e1/f5/fde1f5a0-6c6d-8158-b5b4-bbdc8def6c59/Placeholder.mill/200x200bb-75.jpg",
+      url: "https://apps.apple.com/tw/app/ad-blocker-pro-safari-dns/id6448680871",
     },
     {
       name: "Swarm by Foursquare",
@@ -723,6 +723,31 @@ export const tvData: AppCategory = {
   ],
 };
 
+export const travelData: AppCategory = {
+  n: "Travel",
+  d: "Transport",
+  i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+  apps: [
+      {
+      name: "台北捷運Go",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/e3/4f/45e34f43-70a9-a2f1-fec7-6db2dc6d631a/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/台北捷運go/id997212021",
+    },
+    {
+      name: "Bus+",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/5e/57/e05e57c8-736a-48b1-c742-2d10b50f937e/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/bus-公車動態-ubike-臺鐵查詢/id967861325",
+    },
+  ],
+  ls: [
+    {
+      l: "Google Maps",
+      i: "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      u: "https://maps.google.com/",
+    },
+  ],
+};
+
 export const demoData: Record<string, AppCategory> = {
   education: educationData,
   productivity: productivityData,
@@ -732,4 +757,5 @@ export const demoData: Record<string, AppCategory> = {
   health: healthData,
   tv: tvData,
   tools: toolsData,
+  travel: travelData,
 };
