@@ -10,7 +10,10 @@
       "WebFetch(domain:itunes.apple.com)",
       "WebFetch(domain:docs.github.com)",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api *)",
+      "Read(//tmp/**)",
+      "Bash(node -e ' *)"
     ]
   }
 }
