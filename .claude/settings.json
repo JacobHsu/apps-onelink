@@ -5,7 +5,9 @@
       "Bash(npm config *)",
       "Bash(npm install *)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3001/ --max-time 3)",
-      "PowerShell($env:Path += \";$env:APPDATA\\\\npm\"; pnpm -v)"
+      "PowerShell($env:Path += \";$env:APPDATA\\\\npm\"; pnpm -v)",
+      "WebFetch(domain:apps.apple.com)",
+      "WebFetch(domain:itunes.apple.com)"
     ]
   }
 }

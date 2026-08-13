@@ -748,6 +748,35 @@ export const travelData: AppCategory = {
   ],
 };
 
+export const sportsData: AppCategory = {
+  n: "Sports",
+  d: "Lifestyle",
+  i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
+  apps: [
+    {
+      name: "Apple Sports",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/ce/5c/68ce5c0c-debf-62e9-ff76-640deb839533/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/apple-sports/id6446788829",
+    },
+    {
+      name: "AiScore - Live Sports Scores",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/5e/ca/1d5eca62-f6fb-b4a5-353e-be9b4d5f42e3/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/aiscore-live-sports-scores/id1477171291",
+    },
+    {
+      name: "Stadium Live - Predict Sports",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/06/ce/4906ce36-e42d-8f61-f62b-a5e3b72462d3/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/246x0w.webp",
+      url: "https://apps.apple.com/us/app/stadium-live-predict-sports/id1485936601",
+    },
+    {
+      name: "Pixel Islands: 計步器",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/8b/3c/c48b3c85-276c-a400-6c3d-60bd845da1c8/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/246x0w.webp",
+      url: "https://apps.apple.com/tw/app/pixel-islands-計步器/id6760819710",
+    },
+  ],
+  ls: [],
+};
+
 export const demoData: Record<string, AppCategory> = {
   education: educationData,
   productivity: productivityData,
@@ -758,4 +787,5 @@ export const demoData: Record<string, AppCategory> = {
   tv: tvData,
   tools: toolsData,
   travel: travelData,
+  sports: sportsData,
 };
