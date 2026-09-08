@@ -446,9 +446,9 @@ export const financeData: AppCategory = {
       u: "https://www.aicoin.com/",
     },
     {
-      l: "Predict Fun",
-      i: "https://predict.fun/favicon.ico?favicon.0xht.k56wdd~9.ico",
-      u: "https://predict.fun/",
+      l: "Investing com",
+      i: "https://www.investing.com/favicon.ico",
+      u: "https://www.investing.com/",
     },
     {
       l: "Foregate",
@@ -603,15 +603,15 @@ export const toolsData: AppCategory = {
       logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/37/3b/89373b64-b41e-1eab-eba8-c1762d4c6e22/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/200x200ia-75.webp",
       url: "https://apps.apple.com/tw/app/vpn-pro-fast-secure-proxy/id6523432843",
     },
-      {
+    {
       name: "Ad Blocker Pro: Safari & DNS",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fd/e1/f5/fde1f5a0-6c6d-8158-b5b4-bbdc8def6c59/Placeholder.mill/200x200bb-75.jpg",
       url: "https://apps.apple.com/tw/app/ad-blocker-pro-safari-dns/id6448680871",
     },
     {
-      name: "Swarm by Foursquare",
-      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/96/85/ca968514-04a5-67a0-9cb7-e4c5a7685edb/Placeholder.mill/200x200bb-75.webp",
-      url: "https://apps.apple.com/tw/app/swarm-by-foursquare/id870161082",
+      name: "ClockIN：工時紀錄、排班表",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/e0/6e/fee06ee4-ea6a-9015-2712-929745aba29c/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/clockin-工時紀錄-排班表/id6762611715",
     }
   ],
   ls: [
@@ -728,7 +728,7 @@ export const travelData: AppCategory = {
   d: "Transport",
   i: "https://www.apple.com/v/app-store/b/images/overview/icon_appstore__ev0z770zyxoy_large.png",
   apps: [
-      {
+    {
       name: "台北捷運Go",
       logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/e3/4f/45e34f43-70a9-a2f1-fec7-6db2dc6d631a/Placeholder.mill/200x200bb-75.webp",
       url: "https://apps.apple.com/tw/app/台北捷運go/id997212021",
@@ -738,6 +738,11 @@ export const travelData: AppCategory = {
       logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/5e/57/e05e57c8-736a-48b1-c742-2d10b50f937e/Placeholder.mill/200x200bb-75.webp",
       url: "https://apps.apple.com/tw/app/bus-公車動態-ubike-臺鐵查詢/id967861325",
     },
+    {
+      name: "Swarm by Foursquare",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/96/85/ca968514-04a5-67a0-9cb7-e4c5a7685edb/Placeholder.mill/200x200bb-75.webp",
+      url: "https://apps.apple.com/tw/app/swarm-by-foursquare/id870161082",
+    }
   ],
   ls: [
     {
